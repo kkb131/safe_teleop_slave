@@ -1,0 +1,13 @@
+# UpdateSafetyMap service - force refresh of safety map from latest ESDF
+
+# Request
+bool force_full_update  # true = rebuild entire map, false = incremental update
+string[] specific_zones  # empty = all zones, or list specific zone IDs
+
+---
+# Response
+bool success
+string message
+uint32 zones_updated  # number of zones updated
+float32 update_duration  # seconds taken
+builtin_interfaces/Time map_timestamp  # timestamp of updated map

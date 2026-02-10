@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "safe_teleop_core__py",
+		"source" : "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/safe_teleop_core__py"
+	}
+}

@@ -1,0 +1,14 @@
+msg/CollisionWarning.idl
+msg/CollisionWarning.msg
+msg/DynamicObject.idl
+msg/DynamicObject.msg
+msg/ObjectStatus.idl
+msg/ObjectStatus.msg
+msg/SafetyStatus.idl
+msg/SafetyStatus.msg
+msg/SafetyZone.idl
+msg/SafetyZone.msg
+srv/ActivateObject.idl
+srv/ActivateObject.srv
+srv/UpdateSafetyMap.idl
+srv/UpdateSafetyMap.srv

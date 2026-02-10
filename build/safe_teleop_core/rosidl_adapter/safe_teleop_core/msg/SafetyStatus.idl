@@ -1,0 +1,74 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from safe_teleop_core/msg/SafetyStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module safe_teleop_core {
+  module msg {
+    module SafetyStatus_Constants {
+      @verbatim (language="comment", text=
+        "Safety mode (matches C++ enum in collision_detector_node.cpp)" "\n"        "Master connected, all sensors active")
+      const uint8 NORMAL = 0;
+      @verbatim (language="comment", text=
+        "Master disconnected, using cached ESDF")
+      const uint8 DEGRADED = 1;
+      @verbatim (language="comment", text=
+        "Sensor failure or critical collision")
+      const uint8 EMERGENCY = 2;
+    };
+    @verbatim (language="comment", text=
+      "SafetyStatus message - overall system safety state")
+    struct SafetyStatus {
+      std_msgs::msg::Header header;
+
+      uint8 safety_mode;
+
+      @verbatim (language="comment", text=
+        "System health")
+      boolean master_connected;
+
+      boolean esdf_available;
+
+      boolean pointcloud_available;
+
+      boolean emergency_stop_active;
+
+      @verbatim (language="comment", text=
+        "Timing diagnostics" "\n"
+        "seconds since last ESDF update")
+      float esdf_age_sec;
+
+      @verbatim (language="comment", text=
+        "seconds since last PointCloud")
+      float pointcloud_age_sec;
+
+      @verbatim (language="comment", text=
+        "latency of last collision check")
+      float last_collision_check_ms;
+
+      @verbatim (language="comment", text=
+        "Active warnings" "\n"
+        "from CollisionWarning")
+      uint8 active_collision_severity;
+
+      @verbatim (language="comment", text=
+        "meters")
+      float min_distance_to_obstacle;
+
+      @verbatim (language="comment", text=
+        "Performance metrics")
+      float avg_collision_check_latency_ms;
+
+      uint32 collision_checks_per_sec;
+
+      @verbatim (language="comment", text=
+        "Recommended actions")
+      boolean velocity_limit_active;
+
+      @verbatim (language="comment", text=
+        "m/s")
+      float max_safe_velocity;
+    };
+  };
+};

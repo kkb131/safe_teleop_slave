@@ -1,0 +1,52 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from safe_teleop_core/msg/ObjectStatus.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module safe_teleop_core {
+  module msg {
+    module ObjectStatus_Constants {
+      @verbatim (language="comment", text=
+        "Classification")
+      const uint8 STATIC = 0;
+      const uint8 DYNAMIC = 1;
+      @verbatim (language="comment", text=
+        "static object that moved due to robot interaction")
+      const uint8 STATIC_TO_DYNAMIC = 2;
+    };
+    @verbatim (language="comment", text=
+      "ObjectStatus message - represents state of a detected object")
+    struct ObjectStatus {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Object identification")
+      string object_id;
+
+      @verbatim (language="comment", text=
+        "e.g., \"box\", \"person\", \"tool\"")
+      string object_type;
+
+      @verbatim (language="comment", text=
+        "Spatial information")
+      geometry_msgs::msg::Pose pose;
+
+      geometry_msgs::msg::Vector3 bounding_box;
+
+      uint8 motion_state;
+
+      @verbatim (language="comment", text=
+        "Activation status" "\n"
+        "true = robot can touch, false = collision prohibited")
+      boolean is_activated;
+
+      @verbatim (language="comment", text=
+        "Confidence" "\n"
+        "0.0 to 1.0")
+      float detection_confidence;
+    };
+  };
+};

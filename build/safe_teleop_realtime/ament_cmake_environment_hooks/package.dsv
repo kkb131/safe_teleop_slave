@@ -1,0 +1,4 @@
+source;share/safe_teleop_realtime/local_setup.bash
+source;share/safe_teleop_realtime/local_setup.dsv
+source;share/safe_teleop_realtime/local_setup.sh
+source;share/safe_teleop_realtime/local_setup.zsh

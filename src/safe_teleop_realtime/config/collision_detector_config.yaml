@@ -1,0 +1,17 @@
+collision_detector_node:
+  ros__parameters:
+    # Safety margins
+    safety_margin: 0.3  # meters - normal safety distance
+    critical_distance: 0.15  # meters - emergency stop threshold
+
+    # Timeouts
+    esdf_timeout_sec: 5.0  # Enter DEGRADED mode after 5s without ESDF
+    pointcloud_timeout_sec: 1.0  # Enter EMERGENCY mode if no point cloud
+
+    # Degraded Mode Settings
+    degraded_margin_multiplier: 2.0  # Double safety margin in degraded
+    emergency_velocity_limit: 0.05  # m/s - max speed in degraded
+
+    # Performance
+    collision_check_rate: 20  # Hz (50ms cycle time)
+    voxel_downsample_size: 0.02  # 2cm voxels for faster processing

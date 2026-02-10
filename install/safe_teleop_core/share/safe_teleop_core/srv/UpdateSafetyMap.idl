@@ -1,0 +1,41 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from safe_teleop_core/srv/UpdateSafetyMap.srv
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module safe_teleop_core {
+  module srv {
+    @verbatim (language="comment", text=
+      "UpdateSafetyMap service - force refresh of safety map from latest ESDF")
+    struct UpdateSafetyMap_Request {
+      @verbatim (language="comment", text=
+        "Request" "\n"
+        "true = rebuild entire map, false = incremental update")
+      boolean force_full_update;
+
+      @verbatim (language="comment", text=
+        "empty = all zones, or list specific zone IDs")
+      sequence<string> specific_zones;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct UpdateSafetyMap_Response {
+      boolean success;
+
+      string message;
+
+      @verbatim (language="comment", text=
+        "number of zones updated")
+      uint32 zones_updated;
+
+      @verbatim (language="comment", text=
+        "seconds taken")
+      float update_duration;
+
+      @verbatim (language="comment", text=
+        "timestamp of updated map")
+      builtin_interfaces::msg::Time map_timestamp;
+    };
+  };
+};

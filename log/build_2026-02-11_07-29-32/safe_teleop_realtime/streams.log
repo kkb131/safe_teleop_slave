@@ -1,0 +1,52 @@
+[0.008s] Invoking command in '/workspaces/safe_teleop_slave_ws/build/safe_teleop_realtime': AMENT_PREFIX_PATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/safe_teleop_slave_ws/src/safe_teleop_realtime -DCMAKE_INSTALL_PREFIX=/workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime
+[0.046s] -- The C compiler identification is GNU 13.3.0
+[0.084s] -- The CXX compiler identification is GNU 13.3.0
+[0.096s] -- Detecting C compiler ABI info
+[0.156s] -- Detecting C compiler ABI info - done
+[0.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.162s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.169s] -- Detecting CXX compiler ABI info
+[0.234s] -- Detecting CXX compiler ABI info - done
+[0.239s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.239s] -- Detecting CXX compile features
+[0.239s] -- Detecting CXX compile features - done
+[0.241s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.315s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.407s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.434s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.443s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.452s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.463s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.572s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.575s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.724s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.743s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.758s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.854s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.863s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.889s] -- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.043s] -- Found tf2_geometry_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.093s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.094s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.094s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.105s] -- Found nvblox_msgs: 4.1.0 (/opt/ros/jazzy/share/nvblox_msgs/cmake)
+[1.131s] -- Found safe_teleop_core: 0.1.0 (/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake)
+[1.160s] CMake Error at CMakeLists.txt:24 (find_package):
+[1.160s]   By not providing "FindPCL.cmake" in CMAKE_MODULE_PATH this project has
+[1.160s]   asked CMake to find a package configuration file provided by "PCL", but
+[1.160s]   CMake did not find one.
+[1.160s] 
+[1.160s]   Could not find a package configuration file provided by "PCL" with any of
+[1.160s]   the following names:
+[1.160s] 
+[1.160s]     PCLConfig.cmake
+[1.160s]     pcl-config.cmake
+[1.160s] 
+[1.160s]   Add the installation prefix of "PCL" to CMAKE_PREFIX_PATH or set "PCL_DIR"
+[1.160s]   to a directory containing one of the above files.  If "PCL" provides a
+[1.160s]   separate development package or SDK, be sure it has been installed.
+[1.160s] 
+[1.160s] 
+[1.160s] -- Configuring incomplete, errors occurred!
+[1.167s] Invoked command in '/workspaces/safe_teleop_slave_ws/build/safe_teleop_realtime' returned '1': AMENT_PREFIX_PATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /workspaces/safe_teleop_slave_ws/src/safe_teleop_realtime -DCMAKE_INSTALL_PREFIX=/workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime

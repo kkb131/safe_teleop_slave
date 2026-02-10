@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from safe_teleop_core/srv/ActivateObject.srv
+// generated code does not contain a copyright notice
+
+#include "safe_teleop_core/msg/ObjectStatus.idl"
+
+module safe_teleop_core {
+  module srv {
+    @verbatim (language="comment", text=
+      "ActivateObject service - enable/disable collision checking for specific object")
+    struct ActivateObject_Request {
+      @verbatim (language="comment", text=
+        "Request" "\n"
+        "ID of object to activate/deactivate")
+      string object_id;
+
+      @verbatim (language="comment", text=
+        "true = allow contact, false = prohibit contact")
+      boolean activate;
+
+      @verbatim (language="comment", text=
+        "optional additional margin (meters), default=0.0")
+      float safety_margin;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct ActivateObject_Response {
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "human-readable result")
+      string message;
+
+      @verbatim (language="comment", text=
+        "new object status")
+      safe_teleop_core::msg::ObjectStatus updated_status;
+    };
+  };
+};

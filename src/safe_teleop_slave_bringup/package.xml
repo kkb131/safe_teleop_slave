@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>safe_teleop_slave_bringup</name>
+  <version>0.1.0</version>
+  <description>Launch files for SafeTeleOp slave system (Jetson AGX Orin)</description>
+
+  <maintainer email="dev@safeteleop.ai">SafeTeleOp Dev Team</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Package dependencies -->
+  <exec_depend>safe_teleop_realtime</exec_depend>
+  <exec_depend>safe_teleop_emergency</exec_depend>
+  <exec_depend>realsense2_camera</exec_depend>
+  <exec_depend>ur_robot_driver</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

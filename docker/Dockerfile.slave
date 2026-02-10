@@ -1,0 +1,41 @@
+# SafeTeleOp Slave System Dockerfile
+# Jetson AGX Orin + JetPack 6 + ROS2 Humble
+# For real-time collision detection and emergency stop
+
+FROM nvcr.io/nvidia/isaac/ros:humble-r3.2
+
+# Set environment variables
+ENV DEBIAN_FRONTEND=noninteractive
+ENV ROS_DISTRO=humble
+ENV WORKSPACE=/workspace/safe_teleop_slave_ws
+
+# Install minimal ROS2 packages (lightweight for Jetson)
+RUN apt-get update && apt-get install -y \
+    ros-${ROS_DISTRO}-realsense2-camera \
+    ros-${ROS_DISTRO}-ur-robot-driver \
+    ros-${ROS_DISTRO}-robot-state-publisher \
+    ros-${ROS_DISTRO}-tf2-ros \
+    build-essential \
+    cmake \
+    libeigen3-dev \
+    libpcl-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Python dependencies (minimal set)
+RUN pip3 install --no-cache-dir \
+    numpy>=1.24 \
+    transforms3d>=0.4
+
+# Create workspace
+WORKDIR ${WORKSPACE}
+COPY . ${WORKSPACE}/
+
+# Source ROS2 setup in bashrc
+RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> /root/.bashrc && \
+    echo "source ${WORKSPACE}/install/setup.bash" >> /root/.bashrc
+
+# Build workspace (will be done at runtime)
+# RUN . /opt/ros/${ROS_DISTRO}/setup.bash && colcon build --symlink-install
+
+# Entry point
+CMD ["/bin/bash"]

@@ -1,0 +1,37 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/collision_warning__type_support_c.cpp.o"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/collision_warning__type_support_c.cpp.o.d"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/dynamic_object__type_support_c.cpp.o"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/dynamic_object__type_support_c.cpp.o.d"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/object_status__type_support_c.cpp.o"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/object_status__type_support_c.cpp.o.d"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/safety_status__type_support_c.cpp.o"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/safety_status__type_support_c.cpp.o.d"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/safety_zone__type_support_c.cpp.o"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/safety_zone__type_support_c.cpp.o.d"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/srv/detail/activate_object__type_support_c.cpp.o"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/srv/detail/activate_object__type_support_c.cpp.o.d"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/srv/detail/update_safety_map__type_support_c.cpp.o"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/srv/detail/update_safety_map__type_support_c.cpp.o.d"
+  "libsafe_teleop_core__rosidl_typesupport_fastrtps_c.pdb"
+  "libsafe_teleop_core__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/collision_warning__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/collision_warning__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/dynamic_object__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/dynamic_object__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/object_status__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/object_status__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/safety_status__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/safety_status__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/safety_zone__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/safety_zone__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/safe_teleop_core/srv/detail/activate_object__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/safe_teleop_core/srv/detail/activate_object__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/safe_teleop_core/srv/detail/update_safety_map__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/safe_teleop_core/srv/detail/update_safety_map__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,12 @@
+{
+  "package_name": "safe_teleop_core",
+  "non_idl_tuples": [
+    "/workspaces/safe_teleop_slave_ws/src/safe_teleop_core:msg/SafetyZone.msg",
+    "/workspaces/safe_teleop_slave_ws/src/safe_teleop_core:msg/ObjectStatus.msg",
+    "/workspaces/safe_teleop_slave_ws/src/safe_teleop_core:msg/CollisionWarning.msg",
+    "/workspaces/safe_teleop_slave_ws/src/safe_teleop_core:msg/DynamicObject.msg",
+    "/workspaces/safe_teleop_slave_ws/src/safe_teleop_core:msg/SafetyStatus.msg",
+    "/workspaces/safe_teleop_slave_ws/src/safe_teleop_core:srv/ActivateObject.srv",
+    "/workspaces/safe_teleop_slave_ws/src/safe_teleop_core:srv/UpdateSafetyMap.srv"
+  ]
+}

@@ -1,0 +1,7 @@
+/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/rosidl_adapter/safe_teleop_core:msg/SafetyZone.idl
+/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/rosidl_adapter/safe_teleop_core:msg/ObjectStatus.idl
+/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/rosidl_adapter/safe_teleop_core:msg/CollisionWarning.idl
+/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/rosidl_adapter/safe_teleop_core:msg/DynamicObject.idl
+/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/rosidl_adapter/safe_teleop_core:msg/SafetyStatus.idl
+/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/rosidl_adapter/safe_teleop_core:srv/ActivateObject.idl
+/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/rosidl_adapter/safe_teleop_core:srv/UpdateSafetyMap.idl

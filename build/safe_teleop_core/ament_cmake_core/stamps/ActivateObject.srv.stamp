@@ -1,0 +1,12 @@
+# ActivateObject service - enable/disable collision checking for specific object
+
+# Request
+string object_id  # ID of object to activate/deactivate
+bool activate     # true = allow contact, false = prohibit contact
+float32 safety_margin  # optional additional margin (meters), default=0.0
+
+---
+# Response
+bool success
+string message  # human-readable result
+ObjectStatus updated_status  # new object status

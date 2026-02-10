@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ed67d0be77455bb32514.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "safe_teleop_core__py",
+					"jsonFile" : "directory-safe_teleop_core__py-47c6bf90284cd12a21b1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/safe_teleop_core__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "safe_teleop_core",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_safe_teleop_core_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_safe_teleop_core_egg-0c08891278119e872104.json",
+					"name" : "ament_cmake_python_build_safe_teleop_core_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_safe_teleop_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_safe_teleop_core-9fd1d086d23b6d20e4aa.json",
+					"name" : "ament_cmake_python_copy_safe_teleop_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "safe_teleop_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-safe_teleop_core-4a4c44c0137e2151a7e6.json",
+					"name" : "safe_teleop_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "safe_teleop_core__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-safe_teleop_core__cpp-f5fb41ca7e0e436a1efc.json",
+					"name" : "safe_teleop_core__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "safe_teleop_core__py::@a34c6ab9c4ac93d9550a",
+					"jsonFile" : "target-safe_teleop_core__py-3a49ddfafe3381d1da52.json",
+					"name" : "safe_teleop_core__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "safe_teleop_core__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-safe_teleop_core__rosidl_generator_c-51c310a2b1758d3d63d5.json",
+					"name" : "safe_teleop_core__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "safe_teleop_core__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-safe_teleop_core__rosidl_generator_py-7c7e469cf344408d7d18.json",
+					"name" : "safe_teleop_core__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "safe_teleop_core__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-safe_teleop_core__rosidl_generator_type_description-2bd65edbb40258f8d079.json",
+					"name" : "safe_teleop_core__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "safe_teleop_core__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-safe_teleop_core__rosidl_typesupport_c-55d5484e972a2664577b.json",
+					"name" : "safe_teleop_core__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "safe_teleop_core__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-safe_teleop_core__rosidl_typesupport_cpp-6ea4d96e8b6c8a5175bd.json",
+					"name" : "safe_teleop_core__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "safe_teleop_core__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-safe_teleop_core__rosidl_typesupport_fastrtps_c-7fbe448ae32d11a8011e.json",
+					"name" : "safe_teleop_core__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "safe_teleop_core__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-safe_teleop_core__rosidl_typesupport_fastrtps_cpp-877d96af69c77fe7e186.json",
+					"name" : "safe_teleop_core__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "safe_teleop_core__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-safe_teleop_core__rosidl_typesupport_introspection_c-4b319b5a203c7ef5e4ec.json",
+					"name" : "safe_teleop_core__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "safe_teleop_core__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-safe_teleop_core__rosidl_typesupport_introspection_cpp-414a2252e4f90f7673f3.json",
+					"name" : "safe_teleop_core__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "safe_teleop_core_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-safe_teleop_core_s__rosidl_typesupport_c-7de4b0004e16a956b42d.json",
+					"name" : "safe_teleop_core_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "safe_teleop_core_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-safe_teleop_core_s__rosidl_typesupport_fastrtps_c-1349f6091400d41dd548.json",
+					"name" : "safe_teleop_core_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "safe_teleop_core_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-safe_teleop_core_s__rosidl_typesupport_introspection_c-999c68dcecff077eb643.json",
+					"name" : "safe_teleop_core_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "safe_teleop_core_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-safe_teleop_core_uninstall-f2ee41dd7987bd0d7b8b.json",
+					"name" : "safe_teleop_core_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1e42722fd216c4fe0e9e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core",
+		"source" : "/workspaces/safe_teleop_slave_ws/src/safe_teleop_core"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

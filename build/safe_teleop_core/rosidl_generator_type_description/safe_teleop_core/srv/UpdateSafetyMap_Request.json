@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "safe_teleop_core/srv/UpdateSafetyMap_Request",
+      "fields": [
+        {
+          "name": "force_full_update",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "specific_zones",
+          "type": {
+            "type_id": 161,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "safe_teleop_core/srv/UpdateSafetyMap_Request",
+      "hash_string": "RIHS01_49b386d2371d6f3d3bbe9933ab9e7d5455db280bd3e27b735e6bfdcf8607eb64"
+    }
+  ]
+}

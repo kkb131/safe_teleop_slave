@@ -1,0 +1,3 @@
+[submodule "src/safe_teleop_core"]
+	path = src/safe_teleop_core
+	url = https://github.com/kkb131/safe_teleop_core

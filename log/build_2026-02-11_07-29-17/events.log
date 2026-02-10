@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000063] (-) JobUnselected: {'identifier': 'safe_teleop_core'}
+[0.000086] (-) JobUnselected: {'identifier': 'safe_teleop_slave_bringup'}
+[0.000102] (safe_teleop_realtime) JobQueued: {'identifier': 'safe_teleop_realtime', 'dependencies': OrderedDict({'safe_teleop_core': '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core'})}
+[0.000121] (safe_teleop_realtime) JobStarted: {'identifier': 'safe_teleop_realtime'}
+[0.006678] (safe_teleop_realtime) JobEnded: {'identifier': 'safe_teleop_realtime', 'rc': 1}
+[0.016869] (-) EventReactorShutdown: {}

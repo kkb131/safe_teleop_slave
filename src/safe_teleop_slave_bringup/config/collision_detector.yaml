@@ -1,0 +1,20 @@
+/**:
+  ros__parameters:
+    # === Safety Margins ===
+    safety_margin: 0.3  # meters - normal safety distance
+    critical_distance: 0.15  # meters - emergency stop threshold
+
+    # === Timeouts ===
+    esdf_timeout_sec: 5.0  # Enter DEGRADED mode after 5s without ESDF
+    pointcloud_timeout_sec: 1.0  # Enter EMERGENCY mode if no point cloud
+
+    # === Degraded Mode Settings ===
+    degraded_margin_multiplier: 2.0  # Double safety margin in degraded mode
+    emergency_velocity_limit: 0.05  # m/s - max speed in degraded mode
+
+    # === Performance ===
+    collision_check_rate_hz: 20.0  # 50ms cycle time
+    pointcloud_downsample_voxel_size: 0.02  # 2cm voxels for faster processing
+
+    # === Dynamic Objects (if detected) ===
+    dynamic_object_margin_multiplier: 1.5  # 1.5x margin for moving objects

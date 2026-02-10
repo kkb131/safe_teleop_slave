@@ -1,0 +1,37 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/collision_warning__type_support.cpp.o"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/collision_warning__type_support.cpp.o.d"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/dynamic_object__type_support.cpp.o"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/dynamic_object__type_support.cpp.o.d"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/object_status__type_support.cpp.o"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/object_status__type_support.cpp.o.d"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/safety_status__type_support.cpp.o"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/safety_status__type_support.cpp.o.d"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/safety_zone__type_support.cpp.o"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/safety_zone__type_support.cpp.o.d"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/srv/detail/dds_fastrtps/activate_object__type_support.cpp.o"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/srv/detail/dds_fastrtps/activate_object__type_support.cpp.o.d"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/srv/detail/dds_fastrtps/update_safety_map__type_support.cpp.o"
+  "CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/srv/detail/dds_fastrtps/update_safety_map__type_support.cpp.o.d"
+  "libsafe_teleop_core__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libsafe_teleop_core__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/collision_warning__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/collision_warning__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/dynamic_object__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/object_status__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/safety_status__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/safety_zone__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dynamic_object__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/object_status__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/safety_status__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/safety_zone__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/safe_teleop_core/srv/detail/activate_object__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/safe_teleop_core/srv/detail/dds_fastrtps/activate_object__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/safe_teleop_core/srv/detail/dds_fastrtps/update_safety_map__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/safe_teleop_core/srv/detail/update_safety_map__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
