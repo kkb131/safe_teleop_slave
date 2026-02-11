@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-cf05d79784839b7f883c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "safe_teleop_realtime",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "collision_detector_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-collision_detector_node-Release-8fc22dc8a65e8ac48820.json",
+					"name" : "collision_detector_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "depth_to_pointcloud_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-depth_to_pointcloud_node-Release-ead246b3ed0793e2dbe3.json",
+					"name" : "depth_to_pointcloud_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "safe_teleop_realtime_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-safe_teleop_realtime_uninstall-Release-5c4791b075f2a0b25379.json",
+					"name" : "safe_teleop_realtime_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "safety_monitor_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-safety_monitor_node-Release-0caf6490df9aedabc3f0.json",
+					"name" : "safety_monitor_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-1d0cc67745d1cd8026c1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspaces/safe_teleop_slave_ws/build/safe_teleop_realtime",
+		"source" : "/workspaces/safe_teleop_slave_ws/src/safe_teleop_realtime"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

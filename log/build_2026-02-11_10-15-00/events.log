@@ -1,0 +1,194 @@
+[0.000000] (-) TimerEvent: {}
+[0.000129] (-) JobUnselected: {'identifier': 'safe_teleop_core'}
+[0.000264] (-) JobUnselected: {'identifier': 'safe_teleop_core'}
+[0.000276] (-) JobUnselected: {'identifier': 'safe_teleop_slave_bringup'}
+[0.000288] (safe_teleop_realtime) JobQueued: {'identifier': 'safe_teleop_realtime', 'dependencies': OrderedDict({'safe_teleop_core': '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core'})}
+[0.000304] (safe_teleop_realtime) JobStarted: {'identifier': 'safe_teleop_realtime'}
+[0.007325] (safe_teleop_realtime) JobProgress: {'identifier': 'safe_teleop_realtime', 'progress': 'cmake'}
+[0.007732] (safe_teleop_realtime) JobProgress: {'identifier': 'safe_teleop_realtime', 'progress': 'build'}
+[0.008095] (safe_teleop_realtime) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/safe_teleop_slave_ws/build/safe_teleop_realtime', '--', '-j32', '-l32'], 'cwd': '/workspaces/safe_teleop_slave_ws/build/safe_teleop_realtime', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'ys', 'CLAUDE_CODE_ENTRYPOINT': 'claude-vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GIT_EDITOR': 'true', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'HOSTNAME': 'ys-MS-7D75', 'CLAUDE_AGENT_SDK_VERSION': '0.2.38', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/workspaces', 'HOST_USER_GID': '1000', 'VSCODE_RECONNECTION_GRACE_TIME': '10800000', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-be995e01-a315-4ccc-9026-4f0a8a9200ec.sock', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-898505da-fc0a-47ff-bb1a-631fc5d820d2.sock', 'FORCE_COLOR': 'true', 'VSCODE_HANDLES_SIGPIPE': 'true', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'USERNAME': 'admin', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'ISAAC_ROS_WS': '/workspaces/isaac_ros-dev', 'MCP_CONNECTION_NONBLOCKING': 'true', 'PATH': '/usr/bin:/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/src/tensorrt/bin:/opt/ros/jazzy/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/src/tensorrt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'HOST_USER_UID': '1000', 'COREPACK_ENABLE_AUTO_PIN': '0', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-898505da-fc0a-47ff-bb1a-631fc5d820d2.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'NoDefaultCurrentDirectoryInExePath': '1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-898505da-fc0a-47ff-bb1a-631fc5d820d2.sock', 'AMENT_PREFIX_PATH': '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ELECTRON_RUN_AS_NODE': '1', 'CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING': 'true', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'VIRTUAL_ENV': '/usr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspaces/safe_teleop_slave_ws/build/safe_teleop_realtime', 'ISAAC_ROS_PLATFORM': 'amd64', 'PYTHONPATH': '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core:/opt/ros/jazzy'}), 'shell': False}
+[0.059379] (safe_teleop_realtime) StdoutLine: {'line': b'[ 33%] Built target depth_to_pointcloud_node\n'}
+[0.061154] (safe_teleop_realtime) StdoutLine: {'line': b'[ 66%] Built target safety_monitor_node\n'}
+[0.070113] (safe_teleop_realtime) StdoutLine: {'line': b'[ 83%] Building CXX object CMakeFiles/collision_detector_node.dir/src/collision_detector_node.cpp.o\n'}
+[0.099864] (-) TimerEvent: {}
+[0.199952] (-) TimerEvent: {}
+[0.300036] (-) TimerEvent: {}
+[0.400146] (-) TimerEvent: {}
+[0.500281] (-) TimerEvent: {}
+[0.600414] (-) TimerEvent: {}
+[0.700555] (-) TimerEvent: {}
+[0.800693] (-) TimerEvent: {}
+[0.900833] (-) TimerEvent: {}
+[1.000982] (-) TimerEvent: {}
+[1.101138] (-) TimerEvent: {}
+[1.201328] (-) TimerEvent: {}
+[1.301477] (-) TimerEvent: {}
+[1.401612] (-) TimerEvent: {}
+[1.501746] (-) TimerEvent: {}
+[1.601888] (-) TimerEvent: {}
+[1.702030] (-) TimerEvent: {}
+[1.802146] (-) TimerEvent: {}
+[1.902296] (-) TimerEvent: {}
+[2.002444] (-) TimerEvent: {}
+[2.102590] (-) TimerEvent: {}
+[2.202737] (-) TimerEvent: {}
+[2.302874] (-) TimerEvent: {}
+[2.403019] (-) TimerEvent: {}
+[2.503151] (-) TimerEvent: {}
+[2.603309] (-) TimerEvent: {}
+[2.703465] (-) TimerEvent: {}
+[2.803620] (-) TimerEvent: {}
+[2.903775] (-) TimerEvent: {}
+[3.003923] (-) TimerEvent: {}
+[3.104074] (-) TimerEvent: {}
+[3.204222] (-) TimerEvent: {}
+[3.304365] (-) TimerEvent: {}
+[3.316283] (safe_teleop_realtime) StderrLine: {'line': b'/workspaces/safe_teleop_slave_ws/src/safe_teleop_realtime/src/collision_detector_node.cpp: In member function \xe2\x80\x98safe_teleop_core::msg::CollisionWarning safe_teleop::CollisionDetectorNode::check_esdf_collision(const geometry_msgs::msg::Pose&, double)\xe2\x80\x99:\n'}
+[3.316461] (safe_teleop_realtime) StderrLine: {'line': b'/workspaces/safe_teleop_slave_ws/src/safe_teleop_realtime/src/collision_detector_node.cpp:337:41: warning: unused parameter \xe2\x80\x98robot_pose\xe2\x80\x99 [-Wunused-parameter]\n'}
+[3.316517] (safe_teleop_realtime) StderrLine: {'line': b'  337 |         const geometry_msgs::msg::Pose& robot_pose,\n'}
+[3.316567] (safe_teleop_realtime) StderrLine: {'line': b'      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\n'}
+[3.404456] (-) TimerEvent: {}
+[3.504610] (-) TimerEvent: {}
+[3.604788] (-) TimerEvent: {}
+[3.704915] (-) TimerEvent: {}
+[3.805034] (-) TimerEvent: {}
+[3.905117] (-) TimerEvent: {}
+[4.005185] (-) TimerEvent: {}
+[4.105328] (-) TimerEvent: {}
+[4.205473] (-) TimerEvent: {}
+[4.305627] (-) TimerEvent: {}
+[4.405784] (-) TimerEvent: {}
+[4.505929] (-) TimerEvent: {}
+[4.606077] (-) TimerEvent: {}
+[4.706232] (-) TimerEvent: {}
+[4.806376] (-) TimerEvent: {}
+[4.906532] (-) TimerEvent: {}
+[5.006687] (-) TimerEvent: {}
+[5.106835] (-) TimerEvent: {}
+[5.206994] (-) TimerEvent: {}
+[5.307146] (-) TimerEvent: {}
+[5.407297] (-) TimerEvent: {}
+[5.507467] (-) TimerEvent: {}
+[5.607618] (-) TimerEvent: {}
+[5.707771] (-) TimerEvent: {}
+[5.808021] (-) TimerEvent: {}
+[5.908154] (-) TimerEvent: {}
+[6.008365] (-) TimerEvent: {}
+[6.108572] (-) TimerEvent: {}
+[6.208718] (-) TimerEvent: {}
+[6.308860] (-) TimerEvent: {}
+[6.409001] (-) TimerEvent: {}
+[6.509139] (-) TimerEvent: {}
+[6.609284] (-) TimerEvent: {}
+[6.709437] (-) TimerEvent: {}
+[6.809593] (-) TimerEvent: {}
+[6.909746] (-) TimerEvent: {}
+[7.009894] (-) TimerEvent: {}
+[7.110261] (-) TimerEvent: {}
+[7.210414] (-) TimerEvent: {}
+[7.310579] (-) TimerEvent: {}
+[7.410694] (-) TimerEvent: {}
+[7.510802] (-) TimerEvent: {}
+[7.610908] (-) TimerEvent: {}
+[7.711005] (-) TimerEvent: {}
+[7.811093] (-) TimerEvent: {}
+[7.911185] (-) TimerEvent: {}
+[8.011275] (-) TimerEvent: {}
+[8.111366] (-) TimerEvent: {}
+[8.211467] (-) TimerEvent: {}
+[8.311579] (-) TimerEvent: {}
+[8.411681] (-) TimerEvent: {}
+[8.511769] (-) TimerEvent: {}
+[8.611890] (-) TimerEvent: {}
+[8.711985] (-) TimerEvent: {}
+[8.812082] (-) TimerEvent: {}
+[8.912190] (-) TimerEvent: {}
+[9.012308] (-) TimerEvent: {}
+[9.112428] (-) TimerEvent: {}
+[9.212538] (-) TimerEvent: {}
+[9.312650] (-) TimerEvent: {}
+[9.412749] (-) TimerEvent: {}
+[9.512843] (-) TimerEvent: {}
+[9.612942] (-) TimerEvent: {}
+[9.713043] (-) TimerEvent: {}
+[9.813127] (-) TimerEvent: {}
+[9.913226] (-) TimerEvent: {}
+[10.013316] (-) TimerEvent: {}
+[10.113440] (-) TimerEvent: {}
+[10.213530] (-) TimerEvent: {}
+[10.313618] (-) TimerEvent: {}
+[10.413705] (-) TimerEvent: {}
+[10.513790] (-) TimerEvent: {}
+[10.613877] (-) TimerEvent: {}
+[10.713965] (-) TimerEvent: {}
+[10.814050] (-) TimerEvent: {}
+[10.914144] (-) TimerEvent: {}
+[11.014235] (-) TimerEvent: {}
+[11.114325] (-) TimerEvent: {}
+[11.214406] (-) TimerEvent: {}
+[11.314489] (-) TimerEvent: {}
+[11.414585] (-) TimerEvent: {}
+[11.514681] (-) TimerEvent: {}
+[11.614771] (-) TimerEvent: {}
+[11.714829] (-) TimerEvent: {}
+[11.814909] (-) TimerEvent: {}
+[11.914994] (-) TimerEvent: {}
+[12.015076] (-) TimerEvent: {}
+[12.115161] (-) TimerEvent: {}
+[12.215247] (-) TimerEvent: {}
+[12.315337] (-) TimerEvent: {}
+[12.415432] (-) TimerEvent: {}
+[12.515521] (-) TimerEvent: {}
+[12.615602] (-) TimerEvent: {}
+[12.715685] (-) TimerEvent: {}
+[12.815767] (-) TimerEvent: {}
+[12.915850] (-) TimerEvent: {}
+[13.015932] (-) TimerEvent: {}
+[13.116013] (-) TimerEvent: {}
+[13.216091] (-) TimerEvent: {}
+[13.316181] (-) TimerEvent: {}
+[13.416269] (-) TimerEvent: {}
+[13.516367] (-) TimerEvent: {}
+[13.616469] (-) TimerEvent: {}
+[13.716564] (-) TimerEvent: {}
+[13.794853] (safe_teleop_realtime) StdoutLine: {'line': b'[100%] Linking CXX executable collision_detector_node\n'}
+[13.816636] (-) TimerEvent: {}
+[13.916739] (-) TimerEvent: {}
+[14.016841] (-) TimerEvent: {}
+[14.113110] (safe_teleop_realtime) StdoutLine: {'line': b'[100%] Built target collision_detector_node\n'}
+[14.116871] (-) TimerEvent: {}
+[14.121715] (safe_teleop_realtime) CommandEnded: {'returncode': 0}
+[14.122170] (safe_teleop_realtime) JobProgress: {'identifier': 'safe_teleop_realtime', 'progress': 'install'}
+[14.128577] (safe_teleop_realtime) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/safe_teleop_slave_ws/build/safe_teleop_realtime'], 'cwd': '/workspaces/safe_teleop_slave_ws/build/safe_teleop_realtime', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'ys', 'CLAUDE_CODE_ENTRYPOINT': 'claude-vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GIT_EDITOR': 'true', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'HOSTNAME': 'ys-MS-7D75', 'CLAUDE_AGENT_SDK_VERSION': '0.2.38', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/workspaces', 'HOST_USER_GID': '1000', 'VSCODE_RECONNECTION_GRACE_TIME': '10800000', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-be995e01-a315-4ccc-9026-4f0a8a9200ec.sock', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-898505da-fc0a-47ff-bb1a-631fc5d820d2.sock', 'FORCE_COLOR': 'true', 'VSCODE_HANDLES_SIGPIPE': 'true', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'USERNAME': 'admin', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'ISAAC_ROS_WS': '/workspaces/isaac_ros-dev', 'MCP_CONNECTION_NONBLOCKING': 'true', 'PATH': '/usr/bin:/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/src/tensorrt/bin:/opt/ros/jazzy/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/src/tensorrt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'HOST_USER_UID': '1000', 'COREPACK_ENABLE_AUTO_PIN': '0', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-898505da-fc0a-47ff-bb1a-631fc5d820d2.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'NoDefaultCurrentDirectoryInExePath': '1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-898505da-fc0a-47ff-bb1a-631fc5d820d2.sock', 'AMENT_PREFIX_PATH': '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ELECTRON_RUN_AS_NODE': '1', 'CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING': 'true', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'VIRTUAL_ENV': '/usr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspaces/safe_teleop_slave_ws/build/safe_teleop_realtime', 'ISAAC_ROS_PLATFORM': 'amd64', 'PYTHONPATH': '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core:/opt/ros/jazzy'}), 'shell': False}
+[14.134062] (safe_teleop_realtime) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[14.134224] (safe_teleop_realtime) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/lib/safe_teleop_realtime/collision_detector_node\n'}
+[14.137155] (safe_teleop_realtime) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/lib/safe_teleop_realtime/collision_detector_node" to ""\n'}
+[14.137337] (safe_teleop_realtime) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/lib/safe_teleop_realtime/safety_monitor_node\n'}
+[14.138589] (safe_teleop_realtime) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/lib/safe_teleop_realtime/safety_monitor_node" to ""\n'}
+[14.138774] (safe_teleop_realtime) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/lib/safe_teleop_realtime/depth_to_pointcloud_node\n'}
+[14.140611] (safe_teleop_realtime) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/lib/safe_teleop_realtime/depth_to_pointcloud_node" to ""\n'}
+[14.140757] (safe_teleop_realtime) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/include\n'}
+[14.140876] (safe_teleop_realtime) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/include/safe_teleop_realtime\n'}
+[14.140969] (safe_teleop_realtime) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/launch\n'}
+[14.141117] (safe_teleop_realtime) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/launch/realtime_safety.launch.py\n'}
+[14.141236] (safe_teleop_realtime) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/config\n'}
+[14.141271] (safe_teleop_realtime) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/config/depth_to_pointcloud_config.yaml\n'}
+[14.141306] (safe_teleop_realtime) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/config/collision_detector_config.yaml\n'}
+[14.141340] (safe_teleop_realtime) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/ament_index/resource_index/package_run_dependencies/safe_teleop_realtime\n'}
+[14.141372] (safe_teleop_realtime) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/ament_index/resource_index/parent_prefix_path/safe_teleop_realtime\n'}
+[14.141465] (safe_teleop_realtime) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/environment/ament_prefix_path.sh\n'}
+[14.141548] (safe_teleop_realtime) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/environment/ament_prefix_path.dsv\n'}
+[14.141582] (safe_teleop_realtime) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/environment/path.sh\n'}
+[14.141617] (safe_teleop_realtime) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/environment/path.dsv\n'}
+[14.141648] (safe_teleop_realtime) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/local_setup.bash\n'}
+[14.141679] (safe_teleop_realtime) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/local_setup.sh\n'}
+[14.141710] (safe_teleop_realtime) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/local_setup.zsh\n'}
+[14.141741] (safe_teleop_realtime) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/local_setup.dsv\n'}
+[14.141773] (safe_teleop_realtime) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/package.dsv\n'}
+[14.141804] (safe_teleop_realtime) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/ament_index/resource_index/packages/safe_teleop_realtime\n'}
+[14.141838] (safe_teleop_realtime) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/cmake/safe_teleop_realtimeConfig.cmake\n'}
+[14.141868] (safe_teleop_realtime) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/cmake/safe_teleop_realtimeConfig-version.cmake\n'}
+[14.141898] (safe_teleop_realtime) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/package.xml\n'}
+[14.142970] (safe_teleop_realtime) CommandEnded: {'returncode': 0}
+[14.152713] (safe_teleop_realtime) JobEnded: {'identifier': 'safe_teleop_realtime', 'rc': 0}
+[14.153101] (-) EventReactorShutdown: {}

@@ -1,0 +1,453 @@
+[0.006s] Invoking command in '/workspaces/safe_teleop_slave_ws/build/safe_teleop_core': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /workspaces/safe_teleop_slave_ws/src/safe_teleop_core -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core
+[0.045s] -- The C compiler identification is GNU 13.3.0
+[0.081s] -- The CXX compiler identification is GNU 13.3.0
+[0.092s] -- Detecting C compiler ABI info
+[0.156s] -- Detecting C compiler ABI info - done
+[0.162s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.162s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.168s] -- Detecting CXX compiler ABI info
+[0.235s] -- Detecting CXX compiler ABI info - done
+[0.241s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.242s] -- Detecting CXX compile features
+[0.242s] -- Detecting CXX compile features - done
+[0.245s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.326s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.398s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.403s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.439s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.468s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.470s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.494s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.506s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.942s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[1.266s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.691s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.693s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.773s] -- Found PythonExtra: /usr/bin/python3  
+[2.046s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[2.096s] -- Configuring done (2.1s)
+[2.137s] -- Generating done (0.0s)
+[2.146s] -- Build files have been written to: /workspaces/safe_teleop_slave_ws/build/safe_teleop_core
+[2.153s] Invoked command in '/workspaces/safe_teleop_slave_ws/build/safe_teleop_core' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake /workspaces/safe_teleop_slave_ws/src/safe_teleop_core -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core
+[2.154s] Invoking command in '/workspaces/safe_teleop_slave_ws/build/safe_teleop_core': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /workspaces/safe_teleop_slave_ws/build/safe_teleop_core -- -j32 -l32
+[2.193s] [  1%] Generating type hashes for ROS interfaces
+[2.200s] [  1%] Built target ament_cmake_python_copy_safe_teleop_core
+[2.306s] running egg_info
+[2.306s] creating safe_teleop_core.egg-info
+[2.313s] writing safe_teleop_core.egg-info/PKG-INFO
+[2.313s] writing dependency_links to safe_teleop_core.egg-info/dependency_links.txt
+[2.313s] writing top-level names to safe_teleop_core.egg-info/top_level.txt
+[2.313s] writing manifest file 'safe_teleop_core.egg-info/SOURCES.txt'
+[2.333s] reading manifest file 'safe_teleop_core.egg-info/SOURCES.txt'
+[2.333s] writing manifest file 'safe_teleop_core.egg-info/SOURCES.txt'
+[2.357s] [  1%] Built target ament_cmake_python_build_safe_teleop_core_egg
+[2.659s] [  1%] Built target safe_teleop_core__rosidl_generator_type_description
+[2.668s] [  2%] Generating C code for ROS interfaces
+[2.674s] [  3%] Generating C++ code for ROS interfaces
+[3.314s] [  3%] Built target safe_teleop_core__cpp
+[3.383s] [  5%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/object_status__functions.c.o
+[3.383s] [  5%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/safety_zone__type_support.c.o
+[3.383s] [  6%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/object_status__description.c.o
+[3.384s] [  7%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/collision_warning__description.c.o
+[3.385s] [  9%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/object_status__type_support.c.o
+[3.385s] [  9%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/safety_zone__description.c.o
+[3.385s] [ 11%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/dynamic_object__description.c.o
+[3.385s] [ 11%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/collision_warning__functions.c.o
+[3.386s] [ 12%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/dynamic_object__functions.c.o
+[3.386s] [ 13%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/dynamic_object__type_support.c.o
+[3.386s] [ 15%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/safety_status__type_support.c.o
+[3.386s] [ 15%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/safety_zone__functions.c.o
+[3.387s] [ 18%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/srv/detail/activate_object__functions.c.o
+[3.387s] [ 18%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/safety_status__description.c.o
+[3.387s] [ 20%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/srv/detail/activate_object__type_support.c.o
+[3.387s] [ 20%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/srv/detail/update_safety_map__description.c.o
+[3.387s] [ 24%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/safety_status__functions.c.o
+[3.387s] [ 21%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/collision_warning__type_support.c.o
+[3.387s] [ 24%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/srv/detail/update_safety_map__functions.c.o
+[3.387s] [ 24%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/srv/detail/activate_object__description.c.o
+[3.391s] [ 25%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/srv/detail/update_safety_map__type_support.c.o
+[3.512s] [ 26%] Linking C shared library libsafe_teleop_core__rosidl_generator_c.so
+[3.545s] [ 26%] Built target safe_teleop_core__rosidl_generator_c
+[3.552s] [ 31%] Generating C type support for eProsima Fast-RTPS
+[3.552s] [ 31%] Generating C++ type support for eProsima Fast-RTPS
+[3.552s] [ 31%] Generating C type support dispatch for ROS interfaces
+[3.552s] [ 31%] Generating C++ introspection for ROS interfaces
+[3.552s] [ 31%] Generating C++ type support dispatch for ROS interfaces
+[3.553s] [ 32%] Generating C introspection for ROS interfaces
+[4.080s] [ 34%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/safe_teleop_core/msg/safety_zone__type_support.cpp.o
+[4.080s] [ 36%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/safe_teleop_core/msg/collision_warning__type_support.cpp.o
+[4.080s] [ 35%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/safe_teleop_core/msg/object_status__type_support.cpp.o
+[4.080s] [ 38%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/safe_teleop_core/msg/dynamic_object__type_support.cpp.o
+[4.080s] [ 38%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/safe_teleop_core/msg/safety_status__type_support.cpp.o
+[4.081s] [ 39%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/safe_teleop_core/srv/update_safety_map__type_support.cpp.o
+[4.083s] [ 40%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/safe_teleop_core/srv/activate_object__type_support.cpp.o
+[4.086s] [ 42%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_c.dir/rosidl_typesupport_c/safe_teleop_core/msg/safety_zone__type_support.cpp.o
+[4.086s] [ 42%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_c.dir/rosidl_typesupport_c/safe_teleop_core/msg/object_status__type_support.cpp.o
+[4.086s] [ 43%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_c.dir/rosidl_typesupport_c/safe_teleop_core/srv/update_safety_map__type_support.cpp.o
+[4.087s] [ 46%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_c.dir/rosidl_typesupport_c/safe_teleop_core/msg/collision_warning__type_support.cpp.o
+[4.087s] [ 46%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_c.dir/rosidl_typesupport_c/safe_teleop_core/msg/safety_status__type_support.cpp.o
+[4.087s] [ 46%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_c.dir/rosidl_typesupport_c/safe_teleop_core/srv/activate_object__type_support.cpp.o
+[4.089s] [ 47%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_c.dir/rosidl_typesupport_c/safe_teleop_core/msg/dynamic_object__type_support.cpp.o
+[4.129s] [ 48%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/safe_teleop_core/msg/detail/safety_zone__type_support.cpp.o
+[4.129s] [ 50%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/safe_teleop_core/msg/detail/collision_warning__type_support.cpp.o
+[4.138s] [ 52%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/safe_teleop_core/msg/detail/safety_status__type_support.cpp.o
+[4.138s] [ 52%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/safe_teleop_core/srv/detail/activate_object__type_support.cpp.o
+[4.138s] [ 54%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/safe_teleop_core/msg/detail/dynamic_object__type_support.cpp.o
+[4.138s] [ 54%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/safe_teleop_core/srv/detail/update_safety_map__type_support.cpp.o
+[4.138s] [ 55%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/safe_teleop_core/msg/detail/object_status__type_support.cpp.o
+[4.146s] [ 56%] Linking CXX shared library libsafe_teleop_core__rosidl_typesupport_c.so
+[4.161s] [ 58%] Building C object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/safe_teleop_core/msg/detail/collision_warning__type_support.c.o
+[4.161s] [ 59%] Building C object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/safe_teleop_core/srv/detail/update_safety_map__type_support.c.o
+[4.162s] [ 59%] Building C object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/safe_teleop_core/msg/detail/safety_zone__type_support.c.o
+[4.163s] [ 62%] Building C object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/safe_teleop_core/srv/detail/activate_object__type_support.c.o
+[4.163s] [ 62%] Building C object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/safe_teleop_core/msg/detail/safety_status__type_support.c.o
+[4.163s] [ 63%] Building C object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/safe_teleop_core/msg/detail/dynamic_object__type_support.c.o
+[4.164s] [ 62%] Building C object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/safe_teleop_core/msg/detail/object_status__type_support.c.o
+[4.204s] [ 63%] Built target safe_teleop_core__rosidl_typesupport_c
+[4.245s] [ 64%] Linking C shared library libsafe_teleop_core__rosidl_typesupport_introspection_c.so
+[4.281s] [ 64%] Built target safe_teleop_core__rosidl_typesupport_introspection_c
+[4.314s] [ 67%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/object_status__type_support_c.cpp.o
+[4.315s] [ 67%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/collision_warning__type_support_c.cpp.o
+[4.316s] [ 68%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/srv/detail/update_safety_map__type_support_c.cpp.o
+[4.316s] [ 69%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/dynamic_object__type_support_c.cpp.o
+[4.316s] [ 70%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/srv/detail/activate_object__type_support_c.cpp.o
+[4.317s] [ 71%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/object_status__type_support.cpp.o
+[4.318s] [ 73%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/dynamic_object__type_support.cpp.o
+[4.318s] [ 73%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/safety_status__type_support_c.cpp.o
+[4.319s] [ 75%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/srv/detail/dds_fastrtps/update_safety_map__type_support.cpp.o
+[4.319s] [ 75%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/collision_warning__type_support.cpp.o
+[4.320s] [ 76%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/safety_status__type_support.cpp.o
+[4.321s] [ 77%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/safety_zone__type_support.cpp.o
+[4.322s] [ 78%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/safety_zone__type_support_c.cpp.o
+[4.322s] [ 79%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/srv/detail/dds_fastrtps/activate_object__type_support.cpp.o
+[4.524s] [ 80%] Linking CXX shared library libsafe_teleop_core__rosidl_typesupport_cpp.so
+[4.593s] [ 80%] Built target safe_teleop_core__rosidl_typesupport_cpp
+[4.745s] [ 81%] Linking CXX shared library libsafe_teleop_core__rosidl_typesupport_introspection_cpp.so
+[4.796s] [ 81%] Built target safe_teleop_core__rosidl_typesupport_introspection_cpp
+[4.834s] [ 82%] Linking CXX shared library libsafe_teleop_core__rosidl_typesupport_fastrtps_c.so
+[4.891s] [ 82%] Built target safe_teleop_core__rosidl_typesupport_fastrtps_c
+[5.000s] [ 84%] Linking CXX shared library libsafe_teleop_core__rosidl_typesupport_fastrtps_cpp.so
+[5.051s] [ 84%] Built target safe_teleop_core__rosidl_typesupport_fastrtps_cpp
+[5.068s] [ 84%] Built target safe_teleop_core
+[5.084s] [ 85%] Generating Python code for ROS interfaces
+[6.240s] [ 85%] Built target safe_teleop_core__py
+[6.255s] [ 87%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_py.dir/rosidl_generator_py/safe_teleop_core/msg/_collision_warning_s.c.o
+[6.255s] [ 87%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_py.dir/rosidl_generator_py/safe_teleop_core/msg/_object_status_s.c.o
+[6.256s] [ 89%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_py.dir/rosidl_generator_py/safe_teleop_core/msg/_safety_zone_s.c.o
+[6.256s] [ 89%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_py.dir/rosidl_generator_py/safe_teleop_core/msg/_safety_status_s.c.o
+[6.256s] [ 91%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_py.dir/rosidl_generator_py/safe_teleop_core/srv/_update_safety_map_s.c.o
+[6.256s] [ 91%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_py.dir/rosidl_generator_py/safe_teleop_core/msg/_dynamic_object_s.c.o
+[6.256s] [ 92%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_py.dir/rosidl_generator_py/safe_teleop_core/srv/_activate_object_s.c.o
+[6.423s] [ 93%] Linking C shared library libsafe_teleop_core__rosidl_generator_py.so
+[6.461s] [ 93%] Built target safe_teleop_core__rosidl_generator_py
+[6.475s] [ 95%] Building C object CMakeFiles/safe_teleop_core_s__rosidl_typesupport_c.dir/rosidl_generator_py/safe_teleop_core/_safe_teleop_core_s.ep.rosidl_typesupport_c.c.o
+[6.476s] [ 95%] Building C object CMakeFiles/safe_teleop_core_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/safe_teleop_core/_safe_teleop_core_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[6.478s] [ 96%] Building C object CMakeFiles/safe_teleop_core_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/safe_teleop_core/_safe_teleop_core_s.ep.rosidl_typesupport_introspection_c.c.o
+[6.628s] [ 97%] Linking C shared module rosidl_generator_py/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_c.so
+[6.629s] [ 98%] Linking C shared module rosidl_generator_py/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_introspection_c.so
+[6.635s] [100%] Linking C shared module rosidl_generator_py/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_fastrtps_c.so
+[6.653s] [100%] Built target safe_teleop_core_s__rosidl_typesupport_introspection_c
+[6.654s] [100%] Built target safe_teleop_core_s__rosidl_typesupport_c
+[6.660s] [100%] Built target safe_teleop_core_s__rosidl_typesupport_fastrtps_c
+[6.671s] Invoked command in '/workspaces/safe_teleop_slave_ws/build/safe_teleop_core' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --build /workspaces/safe_teleop_slave_ws/build/safe_teleop_core -- -j32 -l32
+[6.678s] Invoking command in '/workspaces/safe_teleop_slave_ws/build/safe_teleop_core': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /workspaces/safe_teleop_slave_ws/build/safe_teleop_core
+[6.684s] -- Install configuration: "Release"
+[6.684s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/ament_index/resource_index/rosidl_interfaces/safe_teleop_core
+[6.684s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/SafetyZone.json
+[6.684s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/ObjectStatus.json
+[6.684s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/CollisionWarning.json
+[6.684s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/DynamicObject.json
+[6.684s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/SafetyStatus.json
+[6.685s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/srv/ActivateObject.json
+[6.685s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/srv/UpdateSafetyMap.json
+[6.685s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core
+[6.685s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg
+[6.685s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/dynamic_object.h
+[6.685s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/safety_status.h
+[6.685s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail
+[6.685s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__description.c
+[6.685s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__struct.h
+[6.686s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__functions.h
+[6.686s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__type_support.h
+[6.686s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__functions.h
+[6.686s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__functions.h
+[6.686s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__functions.c
+[6.686s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__description.c
+[6.686s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__functions.h
+[6.686s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__type_support.c
+[6.687s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__struct.h
+[6.687s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__functions.c
+[6.687s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__description.c
+[6.687s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__description.c
+[6.687s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__description.c
+[6.687s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__type_support.c
+[6.687s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__type_support.h
+[6.687s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__type_support.c
+[6.687s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__struct.h
+[6.688s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__functions.c
+[6.688s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__functions.c
+[6.688s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__functions.c
+[6.688s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__type_support.h
+[6.688s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__type_support.h
+[6.689s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__type_support.c
+[6.689s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__type_support.c
+[6.689s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__functions.h
+[6.689s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__type_support.h
+[6.689s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__struct.h
+[6.689s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__struct.h
+[6.689s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/object_status.h
+[6.689s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/collision_warning.h
+[6.689s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/rosidl_generator_c__visibility_control.h
+[6.689s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/safety_zone.h
+[6.689s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv
+[6.689s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/activate_object.h
+[6.690s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/update_safety_map.h
+[6.690s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail
+[6.690s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__type_support.h
+[6.690s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__struct.h
+[6.690s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__functions.c
+[6.690s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__struct.h
+[6.690s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__description.c
+[6.690s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__functions.h
+[6.691s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__functions.c
+[6.691s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__functions.h
+[6.691s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__type_support.c
+[6.691s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__type_support.h
+[6.691s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__description.c
+[6.691s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__type_support.c
+[6.691s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/environment/library_path.sh
+[6.692s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/environment/library_path.dsv
+[6.692s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_generator_c.so
+[6.692s] -- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_generator_c.so" to ""
+[6.692s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core
+[6.692s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg
+[6.692s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail
+[6.692s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__rosidl_typesupport_fastrtps_c.h
+[6.693s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__rosidl_typesupport_fastrtps_c.h
+[6.693s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__rosidl_typesupport_fastrtps_c.h
+[6.693s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__rosidl_typesupport_fastrtps_c.h
+[6.693s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__rosidl_typesupport_fastrtps_c.h
+[6.693s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.693s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv
+[6.693s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail
+[6.693s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__rosidl_typesupport_fastrtps_c.h
+[6.693s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__rosidl_typesupport_fastrtps_c.h
+[6.693s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_fastrtps_c.so
+[6.694s] -- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_fastrtps_c.so" to ""
+[6.694s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core
+[6.694s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg
+[6.694s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail
+[6.694s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__rosidl_typesupport_introspection_c.h
+[6.694s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__rosidl_typesupport_introspection_c.h
+[6.694s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__type_support.c
+[6.694s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__rosidl_typesupport_introspection_c.h
+[6.695s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__rosidl_typesupport_introspection_c.h
+[6.695s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__type_support.c
+[6.695s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__type_support.c
+[6.695s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__type_support.c
+[6.695s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__type_support.c
+[6.695s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__rosidl_typesupport_introspection_c.h
+[6.695s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.695s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv
+[6.696s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail
+[6.696s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__type_support.c
+[6.696s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__rosidl_typesupport_introspection_c.h
+[6.696s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__rosidl_typesupport_introspection_c.h
+[6.696s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__type_support.c
+[6.696s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_introspection_c.so
+[6.697s] -- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_introspection_c.so" to ""
+[6.697s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_c.so
+[6.697s] -- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_c.so" to ""
+[6.697s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core
+[6.697s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg
+[6.697s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/safety_status.hpp
+[6.697s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.697s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/object_status.hpp
+[6.697s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail
+[6.698s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__type_support.hpp
+[6.698s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__struct.hpp
+[6.698s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__builder.hpp
+[6.698s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__struct.hpp
+[6.698s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__builder.hpp
+[6.698s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__traits.hpp
+[6.699s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__builder.hpp
+[6.699s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__type_support.hpp
+[6.699s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__struct.hpp
+[6.699s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__type_support.hpp
+[6.699s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__traits.hpp
+[6.699s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__struct.hpp
+[6.699s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__builder.hpp
+[6.699s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__builder.hpp
+[6.700s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__traits.hpp
+[6.700s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__struct.hpp
+[6.700s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__traits.hpp
+[6.700s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__type_support.hpp
+[6.700s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__type_support.hpp
+[6.700s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__traits.hpp
+[6.700s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/collision_warning.hpp
+[6.700s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/safety_zone.hpp
+[6.701s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/dynamic_object.hpp
+[6.701s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv
+[6.701s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail
+[6.701s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__struct.hpp
+[6.701s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__builder.hpp
+[6.701s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__type_support.hpp
+[6.701s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__traits.hpp
+[6.701s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__builder.hpp
+[6.701s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__traits.hpp
+[6.701s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__struct.hpp
+[6.702s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__type_support.hpp
+[6.702s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/activate_object.hpp
+[6.702s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/update_safety_map.hpp
+[6.702s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core
+[6.702s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg
+[6.702s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail
+[6.702s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__rosidl_typesupport_fastrtps_cpp.hpp
+[6.702s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__rosidl_typesupport_fastrtps_cpp.hpp
+[6.702s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dds_fastrtps
+[6.702s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__rosidl_typesupport_fastrtps_cpp.hpp
+[6.703s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__rosidl_typesupport_fastrtps_cpp.hpp
+[6.703s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__rosidl_typesupport_fastrtps_cpp.hpp
+[6.703s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.703s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv
+[6.703s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail
+[6.703s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/dds_fastrtps
+[6.703s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__rosidl_typesupport_fastrtps_cpp.hpp
+[6.703s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__rosidl_typesupport_fastrtps_cpp.hpp
+[6.703s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_fastrtps_cpp.so
+[6.704s] -- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.704s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core
+[6.704s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg
+[6.704s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail
+[6.704s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__type_support.cpp
+[6.704s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__rosidl_typesupport_introspection_cpp.hpp
+[6.704s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__type_support.cpp
+[6.704s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__type_support.cpp
+[6.704s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__type_support.cpp
+[6.705s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__rosidl_typesupport_introspection_cpp.hpp
+[6.705s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__rosidl_typesupport_introspection_cpp.hpp
+[6.705s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__rosidl_typesupport_introspection_cpp.hpp
+[6.705s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__type_support.cpp
+[6.705s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__rosidl_typesupport_introspection_cpp.hpp
+[6.705s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv
+[6.705s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail
+[6.705s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__rosidl_typesupport_introspection_cpp.hpp
+[6.706s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__rosidl_typesupport_introspection_cpp.hpp
+[6.706s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__type_support.cpp
+[6.706s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__type_support.cpp
+[6.706s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_introspection_cpp.so
+[6.707s] -- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_introspection_cpp.so" to ""
+[6.707s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_cpp.so
+[6.707s] -- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_cpp.so" to ""
+[6.707s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/environment/pythonpath.sh
+[6.707s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/environment/pythonpath.dsv
+[6.707s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core-0.1.0-py3.12.egg-info
+[6.708s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core-0.1.0-py3.12.egg-info/dependency_links.txt
+[6.708s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core-0.1.0-py3.12.egg-info/SOURCES.txt
+[6.708s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core-0.1.0-py3.12.egg-info/top_level.txt
+[6.708s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core-0.1.0-py3.12.egg-info/PKG-INFO
+[6.708s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core
+[6.708s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/_safe_teleop_core_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.708s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_fastrtps_c.so
+[6.708s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_c.so
+[6.709s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/_safe_teleop_core_s.ep.rosidl_typesupport_c.c
+[6.709s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg
+[6.709s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_safety_zone_s.c
+[6.709s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_dynamic_object.py
+[6.709s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_dynamic_object_s.c
+[6.709s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_safety_status.py
+[6.709s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_safety_status_s.c
+[6.710s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_collision_warning_s.c
+[6.710s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/__init__.py
+[6.710s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_object_status.py
+[6.710s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_safety_zone.py
+[6.710s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_collision_warning.py
+[6.710s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_object_status_s.c
+[6.710s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/__init__.py
+[6.710s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/srv
+[6.711s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/srv/_activate_object.py
+[6.711s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/srv/_update_safety_map.py
+[6.711s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/srv/_activate_object_s.c
+[6.711s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/srv/__init__.py
+[6.711s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/srv/_update_safety_map_s.c
+[6.711s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_introspection_c.so
+[6.711s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/_safe_teleop_core_s.ep.rosidl_typesupport_introspection_c.c
+[6.746s] Listing '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core'...
+[6.746s] Compiling '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/__init__.py'...
+[6.746s] Listing '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg'...
+[6.746s] Compiling '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/__init__.py'...
+[6.746s] Compiling '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_collision_warning.py'...
+[6.746s] Compiling '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_dynamic_object.py'...
+[6.746s] Compiling '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_object_status.py'...
+[6.746s] Compiling '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_safety_status.py'...
+[6.746s] Compiling '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_safety_zone.py'...
+[6.746s] Listing '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/srv'...
+[6.746s] Compiling '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/srv/__init__.py'...
+[6.746s] Compiling '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/srv/_activate_object.py'...
+[6.746s] Compiling '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/srv/_update_safety_map.py'...
+[6.750s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_fastrtps_c.so
+[6.751s] -- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_fastrtps_c.so" to ""
+[6.751s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_introspection_c.so
+[6.751s] -- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_introspection_c.so" to ""
+[6.751s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_c.so
+[6.751s] -- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_c.so" to ""
+[6.752s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_generator_py.so
+[6.752s] -- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_generator_py.so" to ""
+[6.752s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/SafetyZone.idl
+[6.752s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/ObjectStatus.idl
+[6.752s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/CollisionWarning.idl
+[6.752s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/DynamicObject.idl
+[6.752s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/SafetyStatus.idl
+[6.753s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/srv/ActivateObject.idl
+[6.753s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/srv/UpdateSafetyMap.idl
+[6.753s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/SafetyZone.msg
+[6.753s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/ObjectStatus.msg
+[6.753s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/CollisionWarning.msg
+[6.753s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/DynamicObject.msg
+[6.753s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/SafetyStatus.msg
+[6.754s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/srv/ActivateObject.srv
+[6.754s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/srv/UpdateSafetyMap.srv
+[6.754s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include
+[6.754s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core
+[6.754s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/interfaces.hpp
+[6.754s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/ament_index/resource_index/package_run_dependencies/safe_teleop_core
+[6.754s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/ament_index/resource_index/parent_prefix_path/safe_teleop_core
+[6.754s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/environment/ament_prefix_path.sh
+[6.755s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/environment/ament_prefix_path.dsv
+[6.755s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/environment/path.sh
+[6.755s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/environment/path.dsv
+[6.755s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/local_setup.bash
+[6.755s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/local_setup.sh
+[6.756s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/local_setup.zsh
+[6.756s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/local_setup.dsv
+[6.756s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/package.dsv
+[6.756s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/ament_index/resource_index/packages/safe_teleop_core
+[6.757s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/export_safe_teleop_core__rosidl_generator_cExport.cmake
+[6.757s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/export_safe_teleop_core__rosidl_generator_cExport-release.cmake
+[6.757s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/export_safe_teleop_core__rosidl_typesupport_fastrtps_cExport.cmake
+[6.757s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/export_safe_teleop_core__rosidl_typesupport_fastrtps_cExport-release.cmake
+[6.757s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/safe_teleop_core__rosidl_typesupport_introspection_cExport.cmake
+[6.757s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/safe_teleop_core__rosidl_typesupport_introspection_cExport-release.cmake
+[6.758s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/safe_teleop_core__rosidl_typesupport_cExport.cmake
+[6.758s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/safe_teleop_core__rosidl_typesupport_cExport-release.cmake
+[6.758s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/export_safe_teleop_core__rosidl_generator_cppExport.cmake
+[6.758s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/export_safe_teleop_core__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.758s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/export_safe_teleop_core__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[6.758s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/safe_teleop_core__rosidl_typesupport_introspection_cppExport.cmake
+[6.758s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/safe_teleop_core__rosidl_typesupport_introspection_cppExport-release.cmake
+[6.759s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/safe_teleop_core__rosidl_typesupport_cppExport.cmake
+[6.759s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/safe_teleop_core__rosidl_typesupport_cppExport-release.cmake
+[6.759s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/export_safe_teleop_core__rosidl_generator_pyExport.cmake
+[6.759s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/export_safe_teleop_core__rosidl_generator_pyExport-release.cmake
+[6.759s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/rosidl_cmake-extras.cmake
+[6.759s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.759s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.760s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/ament_cmake_export_libraries-extras.cmake
+[6.760s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/ament_cmake_export_targets-extras.cmake
+[6.760s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.760s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.760s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/safe_teleop_coreConfig.cmake
+[6.760s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/safe_teleop_coreConfig-version.cmake
+[6.760s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/package.xml
+[6.762s] Invoked command in '/workspaces/safe_teleop_slave_ws/build/safe_teleop_core' returned '0': CMAKE_PREFIX_PATH=/opt/ros/jazzy /usr/bin/cmake --install /workspaces/safe_teleop_slave_ws/build/safe_teleop_core

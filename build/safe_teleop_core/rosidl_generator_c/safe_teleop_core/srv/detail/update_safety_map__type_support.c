@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "safe_teleop_core/srv/detail/update_safety_map__functions.h"
-#include "safe_teleop_core/srv/detail/update_safety_map__type_support.h"
 #include "safe_teleop_core/srv/detail/update_safety_map__struct.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "safe_teleop_core/srv/detail/update_safety_map__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

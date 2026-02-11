@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "safe_teleop_core/msg/detail/dynamic_object__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "safe_teleop_core/msg/detail/dynamic_object__struct.h"
 #include "safe_teleop_core/msg/detail/dynamic_object__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
+#include "safe_teleop_core/msg/detail/dynamic_object__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

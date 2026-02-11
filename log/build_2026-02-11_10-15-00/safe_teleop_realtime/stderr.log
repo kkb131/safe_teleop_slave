@@ -1,0 +1,4 @@
+/workspaces/safe_teleop_slave_ws/src/safe_teleop_realtime/src/collision_detector_node.cpp: In member function ‘safe_teleop_core::msg::CollisionWarning safe_teleop::CollisionDetectorNode::check_esdf_collision(const geometry_msgs::msg::Pose&, double)’:
+/workspaces/safe_teleop_slave_ws/src/safe_teleop_realtime/src/collision_detector_node.cpp:337:41: warning: unused parameter ‘robot_pose’ [-Wunused-parameter]
+  337 |         const geometry_msgs::msg::Pose& robot_pose,
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~

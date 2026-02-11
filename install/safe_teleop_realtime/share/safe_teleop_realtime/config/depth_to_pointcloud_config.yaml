@@ -1,0 +1,13 @@
+depth_to_pointcloud_node:
+  ros__parameters:
+    # Input topics
+    depth_topic: "/camera_eef/depth/image_rect_raw"
+    camera_info_topic: "/camera_eef/color/camera_info"
+
+    # Output topic
+    output_topic: "/camera/depth/points"
+    output_frame_id: "camera_color_optical_frame"
+
+    # Depth filtering
+    max_depth: 10.0  # meters - filter out far points
+    min_depth: 0.1   # meters - filter out too close points (noise)

@@ -223,6 +223,19 @@ safety_monitor_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/safety_monitor_node.dir/build.make CMakeFiles/safety_monitor_node.dir/build
 .PHONY : safety_monitor_node/fast
 
+#=============================================================================
+# Target rules for targets named depth_to_pointcloud_node
+
+# Build rule for target.
+depth_to_pointcloud_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 depth_to_pointcloud_node
+.PHONY : depth_to_pointcloud_node
+
+# fast build rule for target.
+depth_to_pointcloud_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_to_pointcloud_node.dir/build.make CMakeFiles/depth_to_pointcloud_node.dir/build
+.PHONY : depth_to_pointcloud_node/fast
+
 src/collision_detector_node.o: src/collision_detector_node.cpp.o
 .PHONY : src/collision_detector_node.o
 
@@ -246,6 +259,30 @@ src/collision_detector_node.s: src/collision_detector_node.cpp.s
 src/collision_detector_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/collision_detector_node.dir/build.make CMakeFiles/collision_detector_node.dir/src/collision_detector_node.cpp.s
 .PHONY : src/collision_detector_node.cpp.s
+
+src/depth_to_pointcloud_node.o: src/depth_to_pointcloud_node.cpp.o
+.PHONY : src/depth_to_pointcloud_node.o
+
+# target to build an object file
+src/depth_to_pointcloud_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_to_pointcloud_node.dir/build.make CMakeFiles/depth_to_pointcloud_node.dir/src/depth_to_pointcloud_node.cpp.o
+.PHONY : src/depth_to_pointcloud_node.cpp.o
+
+src/depth_to_pointcloud_node.i: src/depth_to_pointcloud_node.cpp.i
+.PHONY : src/depth_to_pointcloud_node.i
+
+# target to preprocess a source file
+src/depth_to_pointcloud_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_to_pointcloud_node.dir/build.make CMakeFiles/depth_to_pointcloud_node.dir/src/depth_to_pointcloud_node.cpp.i
+.PHONY : src/depth_to_pointcloud_node.cpp.i
+
+src/depth_to_pointcloud_node.s: src/depth_to_pointcloud_node.cpp.s
+.PHONY : src/depth_to_pointcloud_node.s
+
+# target to generate assembly for a file
+src/depth_to_pointcloud_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/depth_to_pointcloud_node.dir/build.make CMakeFiles/depth_to_pointcloud_node.dir/src/depth_to_pointcloud_node.cpp.s
+.PHONY : src/depth_to_pointcloud_node.cpp.s
 
 src/safety_monitor_node.o: src/safety_monitor_node.cpp.o
 .PHONY : src/safety_monitor_node.o
@@ -287,10 +324,14 @@ help:
 	@echo "... safe_teleop_realtime_uninstall"
 	@echo "... uninstall"
 	@echo "... collision_detector_node"
+	@echo "... depth_to_pointcloud_node"
 	@echo "... safety_monitor_node"
 	@echo "... src/collision_detector_node.o"
 	@echo "... src/collision_detector_node.i"
 	@echo "... src/collision_detector_node.s"
+	@echo "... src/depth_to_pointcloud_node.o"
+	@echo "... src/depth_to_pointcloud_node.i"
+	@echo "... src/depth_to_pointcloud_node.s"
 	@echo "... src/safety_monitor_node.o"
 	@echo "... src/safety_monitor_node.i"
 	@echo "... src/safety_monitor_node.s"

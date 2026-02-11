@@ -63,10 +63,21 @@ ament_target_dependencies(safety_monitor_node
   safe_teleop_core
 )
 
+# === depth_to_pointcloud_node ===
+add_executable(depth_to_pointcloud_node
+  src/depth_to_pointcloud_node.cpp
+)
+
+ament_target_dependencies(depth_to_pointcloud_node
+  rclcpp
+  sensor_msgs
+)
+
 # Install executables
 install(TARGETS
   collision_detector_node
   safety_monitor_node
+  depth_to_pointcloud_node
   DESTINATION lib/${PROJECT_NAME}
 )
 

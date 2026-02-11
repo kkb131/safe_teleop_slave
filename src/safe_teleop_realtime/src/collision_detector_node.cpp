@@ -168,58 +168,74 @@ private:
     void collision_check_loop() {
         auto start_time = std::chrono::steady_clock::now();
 
-        if (!current_robot_pose_) {
-            return;  // No robot pose yet
-        }
-
         // Create warning message
         safe_teleop_core::msg::CollisionWarning warning;
         warning.header.stamp = this->now();
         warning.header.frame_id = "base_link";
+        warning.severity = safe_teleop_core::msg::CollisionWarning::NONE;
+        warning.distance_to_collision = 100.0;
+        warning.emergency_stop_required = false;
+        warning.max_safe_velocity = 1.0;
 
-        // === Layer 1: Point Cloud collision (always active) ===
-        auto pc_collision = check_pointcloud_collision(*current_robot_pose_);
+        // Only perform collision detection if robot pose is available
+        if (current_robot_pose_) {
+            // === Layer 1: Point Cloud collision (always active) ===
+            auto pc_collision = check_pointcloud_collision(*current_robot_pose_);
 
-        if (pc_collision.severity >= safe_teleop_core::msg::CollisionWarning::CRITICAL) {
-            // Immediate danger detected by local sensor!
-            warning = pc_collision;
-            warning.warning_source = "pointcloud";
-            collision_warning_pub_->publish(warning);
+            if (pc_collision.severity >= safe_teleop_core::msg::CollisionWarning::CRITICAL) {
+                // Immediate danger detected by local sensor!
+                warning = pc_collision;
+                warning.warning_source = "pointcloud";
+                collision_warning_pub_->publish(warning);
 
-            auto end_time = std::chrono::steady_clock::now();
-            auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(
-                end_time - start_time).count();
+                auto end_time = std::chrono::steady_clock::now();
+                auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(
+                    end_time - start_time).count();
 
-            if (duration > 10) {  // Log if >10ms
-                RCLCPP_WARN(this->get_logger(),
-                    "Layer 1 collision check took %ld ms", duration);
+                if (duration > 10) {  // Log if >10ms
+                    RCLCPP_WARN(this->get_logger(),
+                        "Layer 1 collision check took %ld ms", duration);
+                }
+
+                // Still publish SafetyStatus even for critical collision
+                publish_safety_status(warning, duration);
+                return;
             }
-            return;
-        }
 
-        // === Layer 2/3: ESDF-based collision ===
-        double margin = safety_margin_;
+            // === Layer 2/3: ESDF-based collision ===
+            double margin = safety_margin_;
 
-        if (current_mode_ == SafetyMode::NORMAL) {
-            // Use standard margin
-            warning = check_esdf_collision(*current_robot_pose_, margin);
-            warning.warning_source = "esdf";
-        } else if (current_mode_ == SafetyMode::DEGRADED) {
-            // Use conservative margin
-            margin *= degraded_multiplier_;
-            warning = check_esdf_collision(*current_robot_pose_, margin);
-            warning.warning_source = "esdf_cached";
-            warning.max_safe_velocity = emergency_vel_limit_;  // Limit speed
+            if (current_mode_ == SafetyMode::NORMAL) {
+                // Use standard margin
+                warning = check_esdf_collision(*current_robot_pose_, margin);
+                warning.warning_source = "esdf";
+            } else if (current_mode_ == SafetyMode::DEGRADED) {
+                // Use conservative margin
+                margin *= degraded_multiplier_;
+                warning = check_esdf_collision(*current_robot_pose_, margin);
+                warning.warning_source = "esdf_cached";
+                warning.max_safe_velocity = emergency_vel_limit_;  // Limit speed
+            } else {
+                // EMERGENCY mode: stop everything
+                warning.severity = safe_teleop_core::msg::CollisionWarning::CRITICAL;
+                warning.emergency_stop_required = true;
+                warning.max_safe_velocity = 0.0;
+                warning.warning_source = "emergency_mode";
+            }
+
+            // Publish warning
+            collision_warning_pub_->publish(warning);
         } else {
-            // EMERGENCY mode: stop everything
-            warning.severity = safe_teleop_core::msg::CollisionWarning::CRITICAL;
-            warning.emergency_stop_required = true;
-            warning.max_safe_velocity = 0.0;
-            warning.warning_source = "emergency_mode";
-        }
+            // No robot pose available - skip collision detection
+            warning.warning_source = "no_robot_pose";
+            warning.severity = safe_teleop_core::msg::CollisionWarning::NONE;
 
-        // Publish warning
-        collision_warning_pub_->publish(warning);
+            // Log warning periodically
+            if (collision_check_count_ % 100 == 0) {
+                RCLCPP_WARN(this->get_logger(),
+                    "No robot pose available, skipping collision detection");
+            }
+        }
 
         // Performance monitoring
         auto end_time = std::chrono::steady_clock::now();
@@ -231,7 +247,12 @@ private:
                 "Collision check took %ld ms (target: <50ms)", duration);
         }
 
-        // Publish SafetyStatus (aggregate system health)
+        // Always publish SafetyStatus (aggregate system health)
+        publish_safety_status(warning, duration);
+    }
+
+    void publish_safety_status(const safe_teleop_core::msg::CollisionWarning& warning,
+                               long duration) {
         safe_teleop_core::msg::SafetyStatus status;
         status.header.stamp = this->now();
         status.header.frame_id = "base_link";
@@ -259,6 +280,7 @@ private:
                                    : warning.max_safe_velocity;
 
         safety_status_pub_->publish(status);
+        collision_check_count_++;
     }
 
     // === Collision Checking Methods ===
@@ -406,6 +428,7 @@ private:
 
     rclcpp::Time last_esdf_time_;
     rclcpp::Time last_pointcloud_time_;
+    uint64_t collision_check_count_ = 0;
 
     // Parameters
     double safety_margin_;

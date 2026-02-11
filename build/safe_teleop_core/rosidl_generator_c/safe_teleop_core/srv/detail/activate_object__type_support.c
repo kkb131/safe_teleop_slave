@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "safe_teleop_core/srv/detail/activate_object__struct.h"
 #include "safe_teleop_core/srv/detail/activate_object__type_support.h"
-#include "safe_teleop_core/srv/detail/activate_object__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "safe_teleop_core/srv/detail/activate_object__struct.h"
+#include "safe_teleop_core/srv/detail/activate_object__functions.h"
 
 #ifdef __cplusplus
 extern "C"

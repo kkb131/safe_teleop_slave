@@ -1,0 +1,100 @@
+[0.009s] Invoking command in '/workspaces/safe_teleop_slave_ws/build/safe_teleop_realtime': AMENT_PREFIX_PATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/safe_teleop_slave_ws/build/safe_teleop_realtime -- -j32 -l32
+[0.029s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.166s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.186s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.191s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.199s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.207s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.250s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.251s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.300s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.343s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.354s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.381s] -- Found tf2_ros: 0.36.19 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.456s] -- Found tf2_geometry_msgs: 0.36.19 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.459s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.460s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.461s] -- Found nvblox_msgs: 4.1.0 (/opt/ros/jazzy/share/nvblox_msgs/cmake)
+[0.478s] -- Found safe_teleop_core: 0.1.0 (/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake)
+[0.512s] CMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[0.512s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.512s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.512s]   cmake_policy command to set the policy and suppress this warning.
+[0.512s] 
+[0.512s]   CMake variable FLANN_ROOT is set to:
+[0.512s] 
+[0.512s]     /usr
+[0.512s] 
+[0.512s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.512s]   .cmake module might still use it.
+[0.512s] Call Stack (most recent call first):
+[0.512s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[0.512s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[0.512s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[0.512s]   CMakeLists.txt:24 (find_package)
+[0.512s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.512s] 
+[0.512s] -- Found flann version 1.9.2
+[0.514s] -- looking for PCL_COMMON
+[0.514s] -- looking for PCL_KDTREE
+[0.515s] -- looking for PCL_OCTREE
+[0.515s] -- looking for PCL_SEARCH
+[0.515s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.515s] -- looking for PCL_FILTERS
+[0.516s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[0.546s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.610s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.612s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.612s] -- Configured cppcheck include dirs: /workspaces/safe_teleop_slave_ws/src/safe_teleop_realtime/include
+[0.612s] -- Configured cppcheck exclude dirs and/or files: 
+[0.613s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.613s] -- Configured cpplint exclude dirs and/or files: 
+[0.614s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.614s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.614s] -- Added test 'lint_cmake' to check CMake code style
+[0.614s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.615s] -- Added test 'uncrustify' to check C / C++ code style
+[0.615s] -- Configured uncrustify additional arguments: 
+[0.615s] -- Added test 'xmllint' to check XML markup files
+[0.616s] -- Configuring done (0.6s)
+[0.645s] -- Generating done (0.0s)
+[0.650s] -- Build files have been written to: /workspaces/safe_teleop_slave_ws/build/safe_teleop_realtime
+[0.683s] [ 16%] Building CXX object CMakeFiles/depth_to_pointcloud_node.dir/src/depth_to_pointcloud_node.cpp.o
+[0.690s] [ 50%] Built target safety_monitor_node
+[0.704s] [ 83%] Built target collision_detector_node
+[2.313s] /workspaces/safe_teleop_slave_ws/src/safe_teleop_realtime/src/depth_to_pointcloud_node.cpp: In member function ‘void safe_teleop::DepthToPointCloudNode::depth_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)’:
+[2.313s] /workspaces/safe_teleop_slave_ws/src/safe_teleop_realtime/src/depth_to_pointcloud_node.cpp:119:22: warning: variable ‘depth_ptr’ set but not used [-Wunused-but-set-variable]
+[2.313s]   119 |         const float* depth_ptr = nullptr;
+[2.313s]       |                      ^~~~~~~~~
+[10.286s] [100%] Linking CXX executable depth_to_pointcloud_node
+[10.413s] [100%] Built target depth_to_pointcloud_node
+[10.422s] Invoked command in '/workspaces/safe_teleop_slave_ws/build/safe_teleop_realtime' returned '0': AMENT_PREFIX_PATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /workspaces/safe_teleop_slave_ws/build/safe_teleop_realtime -- -j32 -l32
+[10.431s] Invoking command in '/workspaces/safe_teleop_slave_ws/build/safe_teleop_realtime': AMENT_PREFIX_PATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/safe_teleop_slave_ws/build/safe_teleop_realtime
+[10.436s] -- Install configuration: ""
+[10.436s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/lib/safe_teleop_realtime/collision_detector_node
+[10.437s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/lib/safe_teleop_realtime/safety_monitor_node
+[10.437s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/lib/safe_teleop_realtime/depth_to_pointcloud_node
+[10.438s] -- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/lib/safe_teleop_realtime/depth_to_pointcloud_node" to ""
+[10.439s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/include
+[10.439s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/include/safe_teleop_realtime
+[10.439s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/launch
+[10.439s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/launch/realtime_safety.launch.py
+[10.439s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/config
+[10.439s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/config/depth_to_pointcloud_config.yaml
+[10.439s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/config/collision_detector_config.yaml
+[10.439s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/ament_index/resource_index/package_run_dependencies/safe_teleop_realtime
+[10.439s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/ament_index/resource_index/parent_prefix_path/safe_teleop_realtime
+[10.439s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/environment/ament_prefix_path.sh
+[10.439s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/environment/ament_prefix_path.dsv
+[10.439s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/environment/path.sh
+[10.439s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/environment/path.dsv
+[10.439s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/local_setup.bash
+[10.439s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/local_setup.sh
+[10.439s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/local_setup.zsh
+[10.439s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/local_setup.dsv
+[10.439s] -- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/package.dsv
+[10.439s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/ament_index/resource_index/packages/safe_teleop_realtime
+[10.440s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/cmake/safe_teleop_realtimeConfig.cmake
+[10.440s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/cmake/safe_teleop_realtimeConfig-version.cmake
+[10.440s] -- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_realtime/share/safe_teleop_realtime/package.xml
+[10.441s] Invoked command in '/workspaces/safe_teleop_slave_ws/build/safe_teleop_realtime' returned '0': AMENT_PREFIX_PATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core:/opt/ros/jazzy LD_LIBRARY_PATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /workspaces/safe_teleop_slave_ws/build/safe_teleop_realtime

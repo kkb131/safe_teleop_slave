@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "safe_teleop_core/msg/detail/safety_zone__type_support.h"
-#include "safe_teleop_core/msg/detail/safety_zone__struct.h"
 #include "safe_teleop_core/msg/detail/safety_zone__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "safe_teleop_core/msg/detail/safety_zone__struct.h"
+#include "safe_teleop_core/msg/detail/safety_zone__type_support.h"
 
 #ifdef __cplusplus
 extern "C"

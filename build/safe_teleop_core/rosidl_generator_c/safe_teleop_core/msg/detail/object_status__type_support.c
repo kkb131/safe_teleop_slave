@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "safe_teleop_core/msg/detail/object_status__functions.h"
-#include "safe_teleop_core/msg/detail/object_status__struct.h"
 #include "safe_teleop_core/msg/detail/object_status__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "safe_teleop_core/msg/detail/object_status__struct.h"
+#include "safe_teleop_core/msg/detail/object_status__functions.h"
 
 #ifdef __cplusplus
 extern "C"

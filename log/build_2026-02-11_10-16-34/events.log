@@ -1,0 +1,530 @@
+[0.000000] (-) TimerEvent: {}
+[0.000128] (-) JobUnselected: {'identifier': 'safe_teleop_realtime'}
+[0.000265] (-) JobUnselected: {'identifier': 'safe_teleop_slave_bringup'}
+[0.000286] (safe_teleop_core) JobQueued: {'identifier': 'safe_teleop_core', 'dependencies': OrderedDict()}
+[0.000304] (safe_teleop_core) JobStarted: {'identifier': 'safe_teleop_core'}
+[0.005612] (safe_teleop_core) JobProgress: {'identifier': 'safe_teleop_core', 'progress': 'cmake'}
+[0.005967] (safe_teleop_core) Command: {'cmd': ['/usr/bin/cmake', '/workspaces/safe_teleop_slave_ws/src/safe_teleop_core', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/workspaces/safe_teleop_slave_ws/install/safe_teleop_core'], 'cwd': '/workspaces/safe_teleop_slave_ws/build/safe_teleop_core', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'ys', 'CLAUDE_CODE_ENTRYPOINT': 'claude-vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GIT_EDITOR': 'true', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'HOSTNAME': 'ys-MS-7D75', 'CLAUDE_AGENT_SDK_VERSION': '0.2.38', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/helpers/browser.sh', 'HOME': '/root', 'HOST_USER_GID': '1000', 'VSCODE_RECONNECTION_GRACE_TIME': '10800000', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-be995e01-a315-4ccc-9026-4f0a8a9200ec.sock', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-898505da-fc0a-47ff-bb1a-631fc5d820d2.sock', 'FORCE_COLOR': 'true', 'VSCODE_HANDLES_SIGPIPE': 'true', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'USERNAME': 'admin', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'ISAAC_ROS_WS': '/workspaces/isaac_ros-dev', 'MCP_CONNECTION_NONBLOCKING': 'true', 'PATH': '/usr/bin:/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/src/tensorrt/bin:/opt/ros/jazzy/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/src/tensorrt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'HOST_USER_UID': '1000', 'COREPACK_ENABLE_AUTO_PIN': '0', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-898505da-fc0a-47ff-bb1a-631fc5d820d2.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'NoDefaultCurrentDirectoryInExePath': '1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-898505da-fc0a-47ff-bb1a-631fc5d820d2.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ELECTRON_RUN_AS_NODE': '1', 'CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING': 'true', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'VIRTUAL_ENV': '/usr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspaces/safe_teleop_slave_ws/build/safe_teleop_core', 'ISAAC_ROS_PLATFORM': 'amd64', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[0.044837] (safe_teleop_core) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.081771] (safe_teleop_core) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.092582] (safe_teleop_core) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099848] (-) TimerEvent: {}
+[0.156754] (safe_teleop_core) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.161979] (safe_teleop_core) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.162104] (safe_teleop_core) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.162392] (safe_teleop_core) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.168387] (safe_teleop_core) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199911] (-) TimerEvent: {}
+[0.235558] (safe_teleop_core) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.241817] (safe_teleop_core) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.241966] (safe_teleop_core) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.242266] (safe_teleop_core) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.244912] (safe_teleop_core) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.299979] (-) TimerEvent: {}
+[0.326478] (safe_teleop_core) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.398616] (safe_teleop_core) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.400051] (-) TimerEvent: {}
+[0.403001] (safe_teleop_core) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.439062] (safe_teleop_core) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.468065] (safe_teleop_core) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.470692] (safe_teleop_core) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.493822] (safe_teleop_core) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.500114] (-) TimerEvent: {}
+[0.506027] (safe_teleop_core) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.600186] (-) TimerEvent: {}
+[0.700274] (-) TimerEvent: {}
+[0.800357] (-) TimerEvent: {}
+[0.900468] (-) TimerEvent: {}
+[0.942750] (safe_teleop_core) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.000537] (-) TimerEvent: {}
+[1.100628] (-) TimerEvent: {}
+[1.200727] (-) TimerEvent: {}
+[1.266768] (safe_teleop_core) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.300791] (-) TimerEvent: {}
+[1.400881] (-) TimerEvent: {}
+[1.500972] (-) TimerEvent: {}
+[1.601067] (-) TimerEvent: {}
+[1.691307] (safe_teleop_core) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.693640] (safe_teleop_core) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[1.701124] (-) TimerEvent: {}
+[1.773121] (safe_teleop_core) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[1.801188] (-) TimerEvent: {}
+[1.901272] (-) TimerEvent: {}
+[2.001373] (-) TimerEvent: {}
+[2.045970] (safe_teleop_core) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.096274] (safe_teleop_core) StdoutLine: {'line': b'-- Configuring done (2.1s)\n'}
+[2.101431] (-) TimerEvent: {}
+[2.137370] (safe_teleop_core) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.146286] (safe_teleop_core) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/safe_teleop_slave_ws/build/safe_teleop_core\n'}
+[2.153677] (safe_teleop_core) CommandEnded: {'returncode': 0}
+[2.154024] (safe_teleop_core) JobProgress: {'identifier': 'safe_teleop_core', 'progress': 'build'}
+[2.154406] (safe_teleop_core) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspaces/safe_teleop_slave_ws/build/safe_teleop_core', '--', '-j32', '-l32'], 'cwd': '/workspaces/safe_teleop_slave_ws/build/safe_teleop_core', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'ys', 'CLAUDE_CODE_ENTRYPOINT': 'claude-vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GIT_EDITOR': 'true', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'HOSTNAME': 'ys-MS-7D75', 'CLAUDE_AGENT_SDK_VERSION': '0.2.38', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/helpers/browser.sh', 'HOME': '/root', 'HOST_USER_GID': '1000', 'VSCODE_RECONNECTION_GRACE_TIME': '10800000', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-be995e01-a315-4ccc-9026-4f0a8a9200ec.sock', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-898505da-fc0a-47ff-bb1a-631fc5d820d2.sock', 'FORCE_COLOR': 'true', 'VSCODE_HANDLES_SIGPIPE': 'true', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'USERNAME': 'admin', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'ISAAC_ROS_WS': '/workspaces/isaac_ros-dev', 'MCP_CONNECTION_NONBLOCKING': 'true', 'PATH': '/usr/bin:/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/src/tensorrt/bin:/opt/ros/jazzy/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/src/tensorrt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'HOST_USER_UID': '1000', 'COREPACK_ENABLE_AUTO_PIN': '0', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-898505da-fc0a-47ff-bb1a-631fc5d820d2.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'NoDefaultCurrentDirectoryInExePath': '1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-898505da-fc0a-47ff-bb1a-631fc5d820d2.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ELECTRON_RUN_AS_NODE': '1', 'CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING': 'true', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'VIRTUAL_ENV': '/usr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspaces/safe_teleop_slave_ws/build/safe_teleop_core', 'ISAAC_ROS_PLATFORM': 'amd64', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[2.193653] (safe_teleop_core) StdoutLine: {'line': b'[  1%] Generating type hashes for ROS interfaces\n'}
+[2.199834] (safe_teleop_core) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_safe_teleop_core\n'}
+[2.201496] (-) TimerEvent: {}
+[2.301607] (-) TimerEvent: {}
+[2.306017] (safe_teleop_core) StdoutLine: {'line': b'running egg_info\n'}
+[2.306491] (safe_teleop_core) StdoutLine: {'line': b'creating safe_teleop_core.egg-info\n'}
+[2.313540] (safe_teleop_core) StdoutLine: {'line': b'writing safe_teleop_core.egg-info/PKG-INFO\n'}
+[2.313660] (safe_teleop_core) StdoutLine: {'line': b'writing dependency_links to safe_teleop_core.egg-info/dependency_links.txt\n'}
+[2.313745] (safe_teleop_core) StdoutLine: {'line': b'writing top-level names to safe_teleop_core.egg-info/top_level.txt\n'}
+[2.313820] (safe_teleop_core) StdoutLine: {'line': b"writing manifest file 'safe_teleop_core.egg-info/SOURCES.txt'\n"}
+[2.333074] (safe_teleop_core) StdoutLine: {'line': b"reading manifest file 'safe_teleop_core.egg-info/SOURCES.txt'\n"}
+[2.333340] (safe_teleop_core) StdoutLine: {'line': b"writing manifest file 'safe_teleop_core.egg-info/SOURCES.txt'\n"}
+[2.357350] (safe_teleop_core) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_safe_teleop_core_egg\n'}
+[2.401691] (-) TimerEvent: {}
+[2.501832] (-) TimerEvent: {}
+[2.601968] (-) TimerEvent: {}
+[2.659312] (safe_teleop_core) StdoutLine: {'line': b'[  1%] Built target safe_teleop_core__rosidl_generator_type_description\n'}
+[2.667946] (safe_teleop_core) StdoutLine: {'line': b'[  2%] Generating C code for ROS interfaces\n'}
+[2.674449] (safe_teleop_core) StdoutLine: {'line': b'[  3%] Generating C++ code for ROS interfaces\n'}
+[2.702048] (-) TimerEvent: {}
+[2.802180] (-) TimerEvent: {}
+[2.902311] (-) TimerEvent: {}
+[3.002429] (-) TimerEvent: {}
+[3.102566] (-) TimerEvent: {}
+[3.202706] (-) TimerEvent: {}
+[3.302847] (-) TimerEvent: {}
+[3.314161] (safe_teleop_core) StdoutLine: {'line': b'[  3%] Built target safe_teleop_core__cpp\n'}
+[3.383415] (safe_teleop_core) StdoutLine: {'line': b'[  5%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/object_status__functions.c.o\n'}
+[3.383597] (safe_teleop_core) StdoutLine: {'line': b'[  5%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/safety_zone__type_support.c.o\n'}
+[3.383664] (safe_teleop_core) StdoutLine: {'line': b'[  6%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/object_status__description.c.o\n'}
+[3.384737] (safe_teleop_core) StdoutLine: {'line': b'[  7%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/collision_warning__description.c.o\n'}
+[3.385371] (safe_teleop_core) StdoutLine: {'line': b'[  9%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/object_status__type_support.c.o\n'}
+[3.385477] (safe_teleop_core) StdoutLine: {'line': b'[  9%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/safety_zone__description.c.o\n'}
+[3.385540] (safe_teleop_core) StdoutLine: {'line': b'[ 11%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/dynamic_object__description.c.o\n'}
+[3.385593] (safe_teleop_core) StdoutLine: {'line': b'[ 11%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/collision_warning__functions.c.o\n'}
+[3.385888] (safe_teleop_core) StdoutLine: {'line': b'[ 12%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/dynamic_object__functions.c.o\n'}
+[3.386539] (safe_teleop_core) StdoutLine: {'line': b'[ 13%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/dynamic_object__type_support.c.o\n'}
+[3.386716] (safe_teleop_core) StdoutLine: {'line': b'[ 15%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/safety_status__type_support.c.o\n'}
+[3.386819] (safe_teleop_core) StdoutLine: {'line': b'[ 15%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/safety_zone__functions.c.o\n'}
+[3.386874] (safe_teleop_core) StdoutLine: {'line': b'[ 18%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/srv/detail/activate_object__functions.c.o\n'}
+[3.386920] (safe_teleop_core) StdoutLine: {'line': b'[ 18%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/safety_status__description.c.o\n'}
+[3.387142] (safe_teleop_core) StdoutLine: {'line': b'[ 20%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/srv/detail/activate_object__type_support.c.o\n'}
+[3.387210] (safe_teleop_core) StdoutLine: {'line': b'[ 20%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/srv/detail/update_safety_map__description.c.o\n'}
+[3.387548] (safe_teleop_core) StdoutLine: {'line': b'[ 24%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/safety_status__functions.c.o\n'}
+[3.387627] (safe_teleop_core) StdoutLine: {'line': b'[ 21%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/msg/detail/collision_warning__type_support.c.o\n'}
+[3.387676] (safe_teleop_core) StdoutLine: {'line': b'[ 24%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/srv/detail/update_safety_map__functions.c.o\n'}
+[3.387712] (safe_teleop_core) StdoutLine: {'line': b'[ 24%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/srv/detail/activate_object__description.c.o\n'}
+[3.391556] (safe_teleop_core) StdoutLine: {'line': b'[ 25%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_c.dir/rosidl_generator_c/safe_teleop_core/srv/detail/update_safety_map__type_support.c.o\n'}
+[3.402937] (-) TimerEvent: {}
+[3.503082] (-) TimerEvent: {}
+[3.511945] (safe_teleop_core) StdoutLine: {'line': b'[ 26%] Linking C shared library libsafe_teleop_core__rosidl_generator_c.so\n'}
+[3.544803] (safe_teleop_core) StdoutLine: {'line': b'[ 26%] Built target safe_teleop_core__rosidl_generator_c\n'}
+[3.552415] (safe_teleop_core) StdoutLine: {'line': b'[ 31%] Generating C type support for eProsima Fast-RTPS\n'}
+[3.552515] (safe_teleop_core) StdoutLine: {'line': b'[ 31%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[3.552556] (safe_teleop_core) StdoutLine: {'line': b'[ 31%] Generating C type support dispatch for ROS interfaces\n'}
+[3.552591] (safe_teleop_core) StdoutLine: {'line': b'[ 31%] Generating C++ introspection for ROS interfaces\n'}
+[3.552632] (safe_teleop_core) StdoutLine: {'line': b'[ 31%] Generating C++ type support dispatch for ROS interfaces\n'}
+[3.553536] (safe_teleop_core) StdoutLine: {'line': b'[ 32%] Generating C introspection for ROS interfaces\n'}
+[3.603166] (-) TimerEvent: {}
+[3.703311] (-) TimerEvent: {}
+[3.803458] (-) TimerEvent: {}
+[3.903596] (-) TimerEvent: {}
+[4.003737] (-) TimerEvent: {}
+[4.079892] (safe_teleop_core) StdoutLine: {'line': b'[ 34%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/safe_teleop_core/msg/safety_zone__type_support.cpp.o\n'}
+[4.080175] (safe_teleop_core) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/safe_teleop_core/msg/collision_warning__type_support.cpp.o\n'}
+[4.080241] (safe_teleop_core) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/safe_teleop_core/msg/object_status__type_support.cpp.o\n'}
+[4.080294] (safe_teleop_core) StdoutLine: {'line': b'[ 38%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/safe_teleop_core/msg/dynamic_object__type_support.cpp.o\n'}
+[4.080354] (safe_teleop_core) StdoutLine: {'line': b'[ 38%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/safe_teleop_core/msg/safety_status__type_support.cpp.o\n'}
+[4.081044] (safe_teleop_core) StdoutLine: {'line': b'[ 39%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/safe_teleop_core/srv/update_safety_map__type_support.cpp.o\n'}
+[4.082909] (safe_teleop_core) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/safe_teleop_core/srv/activate_object__type_support.cpp.o\n'}
+[4.086568] (safe_teleop_core) StdoutLine: {'line': b'[ 42%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_c.dir/rosidl_typesupport_c/safe_teleop_core/msg/safety_zone__type_support.cpp.o\n'}
+[4.086676] (safe_teleop_core) StdoutLine: {'line': b'[ 42%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_c.dir/rosidl_typesupport_c/safe_teleop_core/msg/object_status__type_support.cpp.o\n'}
+[4.086768] (safe_teleop_core) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_c.dir/rosidl_typesupport_c/safe_teleop_core/srv/update_safety_map__type_support.cpp.o\n'}
+[4.087085] (safe_teleop_core) StdoutLine: {'line': b'[ 46%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_c.dir/rosidl_typesupport_c/safe_teleop_core/msg/collision_warning__type_support.cpp.o\n'}
+[4.087232] (safe_teleop_core) StdoutLine: {'line': b'[ 46%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_c.dir/rosidl_typesupport_c/safe_teleop_core/msg/safety_status__type_support.cpp.o\n'}
+[4.087296] (safe_teleop_core) StdoutLine: {'line': b'[ 46%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_c.dir/rosidl_typesupport_c/safe_teleop_core/srv/activate_object__type_support.cpp.o\n'}
+[4.089405] (safe_teleop_core) StdoutLine: {'line': b'[ 47%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_c.dir/rosidl_typesupport_c/safe_teleop_core/msg/dynamic_object__type_support.cpp.o\n'}
+[4.103847] (-) TimerEvent: {}
+[4.128869] (safe_teleop_core) StdoutLine: {'line': b'[ 48%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/safe_teleop_core/msg/detail/safety_zone__type_support.cpp.o\n'}
+[4.129472] (safe_teleop_core) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/safe_teleop_core/msg/detail/collision_warning__type_support.cpp.o\n'}
+[4.138205] (safe_teleop_core) StdoutLine: {'line': b'[ 52%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/safe_teleop_core/msg/detail/safety_status__type_support.cpp.o\n'}
+[4.138303] (safe_teleop_core) StdoutLine: {'line': b'[ 52%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/safe_teleop_core/srv/detail/activate_object__type_support.cpp.o\n'}
+[4.138485] (safe_teleop_core) StdoutLine: {'line': b'[ 54%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/safe_teleop_core/msg/detail/dynamic_object__type_support.cpp.o\n'}
+[4.138543] (safe_teleop_core) StdoutLine: {'line': b'[ 54%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/safe_teleop_core/srv/detail/update_safety_map__type_support.cpp.o\n'}
+[4.138591] (safe_teleop_core) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/safe_teleop_core/msg/detail/object_status__type_support.cpp.o\n'}
+[4.146460] (safe_teleop_core) StdoutLine: {'line': b'[ 56%] Linking CXX shared library libsafe_teleop_core__rosidl_typesupport_c.so\n'}
+[4.161345] (safe_teleop_core) StdoutLine: {'line': b'[ 58%] Building C object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/safe_teleop_core/msg/detail/collision_warning__type_support.c.o\n'}
+[4.161446] (safe_teleop_core) StdoutLine: {'line': b'[ 59%] Building C object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/safe_teleop_core/srv/detail/update_safety_map__type_support.c.o\n'}
+[4.162613] (safe_teleop_core) StdoutLine: {'line': b'[ 59%] Building C object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/safe_teleop_core/msg/detail/safety_zone__type_support.c.o\n'}
+[4.163124] (safe_teleop_core) StdoutLine: {'line': b'[ 62%] Building C object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/safe_teleop_core/srv/detail/activate_object__type_support.c.o\n'}
+[4.163320] (safe_teleop_core) StdoutLine: {'line': b'[ 62%] Building C object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/safe_teleop_core/msg/detail/safety_status__type_support.c.o\n'}
+[4.163752] (safe_teleop_core) StdoutLine: {'line': b'[ 63%] Building C object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/safe_teleop_core/msg/detail/dynamic_object__type_support.c.o\n'}
+[4.163854] (safe_teleop_core) StdoutLine: {'line': b'[ 62%] Building C object CMakeFiles/safe_teleop_core__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/safe_teleop_core/msg/detail/object_status__type_support.c.o\n'}
+[4.204172] (safe_teleop_core) StdoutLine: {'line': b'[ 63%] Built target safe_teleop_core__rosidl_typesupport_c\n'}
+[4.204370] (-) TimerEvent: {}
+[4.245402] (safe_teleop_core) StdoutLine: {'line': b'[ 64%] Linking C shared library libsafe_teleop_core__rosidl_typesupport_introspection_c.so\n'}
+[4.280991] (safe_teleop_core) StdoutLine: {'line': b'[ 64%] Built target safe_teleop_core__rosidl_typesupport_introspection_c\n'}
+[4.304464] (-) TimerEvent: {}
+[4.314379] (safe_teleop_core) StdoutLine: {'line': b'[ 67%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/object_status__type_support_c.cpp.o\n'}
+[4.314530] (safe_teleop_core) StdoutLine: {'line': b'[ 67%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/collision_warning__type_support_c.cpp.o\n'}
+[4.315947] (safe_teleop_core) StdoutLine: {'line': b'[ 68%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/srv/detail/update_safety_map__type_support_c.cpp.o\n'}
+[4.316068] (safe_teleop_core) StdoutLine: {'line': b'[ 69%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/dynamic_object__type_support_c.cpp.o\n'}
+[4.316522] (safe_teleop_core) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/srv/detail/activate_object__type_support_c.cpp.o\n'}
+[4.317735] (safe_teleop_core) StdoutLine: {'line': b'[ 71%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/object_status__type_support.cpp.o\n'}
+[4.317835] (safe_teleop_core) StdoutLine: {'line': b'[ 73%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/dynamic_object__type_support.cpp.o\n'}
+[4.317900] (safe_teleop_core) StdoutLine: {'line': b'[ 73%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/safety_status__type_support_c.cpp.o\n'}
+[4.319576] (safe_teleop_core) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/srv/detail/dds_fastrtps/update_safety_map__type_support.cpp.o\n'}
+[4.319750] (safe_teleop_core) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/collision_warning__type_support.cpp.o\n'}
+[4.319932] (safe_teleop_core) StdoutLine: {'line': b'[ 76%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/safety_status__type_support.cpp.o\n'}
+[4.321501] (safe_teleop_core) StdoutLine: {'line': b'[ 77%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/msg/detail/dds_fastrtps/safety_zone__type_support.cpp.o\n'}
+[4.322653] (safe_teleop_core) StdoutLine: {'line': b'[ 78%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/safe_teleop_core/msg/detail/safety_zone__type_support_c.cpp.o\n'}
+[4.322803] (safe_teleop_core) StdoutLine: {'line': b'[ 79%] Building CXX object CMakeFiles/safe_teleop_core__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/safe_teleop_core/srv/detail/dds_fastrtps/activate_object__type_support.cpp.o\n'}
+[4.404642] (-) TimerEvent: {}
+[4.504799] (-) TimerEvent: {}
+[4.524466] (safe_teleop_core) StdoutLine: {'line': b'[ 80%] Linking CXX shared library libsafe_teleop_core__rosidl_typesupport_cpp.so\n'}
+[4.593323] (safe_teleop_core) StdoutLine: {'line': b'[ 80%] Built target safe_teleop_core__rosidl_typesupport_cpp\n'}
+[4.604871] (-) TimerEvent: {}
+[4.705010] (-) TimerEvent: {}
+[4.745092] (safe_teleop_core) StdoutLine: {'line': b'[ 81%] Linking CXX shared library libsafe_teleop_core__rosidl_typesupport_introspection_cpp.so\n'}
+[4.796743] (safe_teleop_core) StdoutLine: {'line': b'[ 81%] Built target safe_teleop_core__rosidl_typesupport_introspection_cpp\n'}
+[4.805071] (-) TimerEvent: {}
+[4.833928] (safe_teleop_core) StdoutLine: {'line': b'[ 82%] Linking CXX shared library libsafe_teleop_core__rosidl_typesupport_fastrtps_c.so\n'}
+[4.891747] (safe_teleop_core) StdoutLine: {'line': b'[ 82%] Built target safe_teleop_core__rosidl_typesupport_fastrtps_c\n'}
+[4.905132] (-) TimerEvent: {}
+[5.000054] (safe_teleop_core) StdoutLine: {'line': b'[ 84%] Linking CXX shared library libsafe_teleop_core__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.005195] (-) TimerEvent: {}
+[5.051655] (safe_teleop_core) StdoutLine: {'line': b'[ 84%] Built target safe_teleop_core__rosidl_typesupport_fastrtps_cpp\n'}
+[5.068532] (safe_teleop_core) StdoutLine: {'line': b'[ 84%] Built target safe_teleop_core\n'}
+[5.084682] (safe_teleop_core) StdoutLine: {'line': b'[ 85%] Generating Python code for ROS interfaces\n'}
+[5.105259] (-) TimerEvent: {}
+[5.205343] (-) TimerEvent: {}
+[5.305425] (-) TimerEvent: {}
+[5.405515] (-) TimerEvent: {}
+[5.505611] (-) TimerEvent: {}
+[5.605697] (-) TimerEvent: {}
+[5.705786] (-) TimerEvent: {}
+[5.805985] (-) TimerEvent: {}
+[5.906119] (-) TimerEvent: {}
+[6.006265] (-) TimerEvent: {}
+[6.106366] (-) TimerEvent: {}
+[6.206502] (-) TimerEvent: {}
+[6.240285] (safe_teleop_core) StdoutLine: {'line': b'[ 85%] Built target safe_teleop_core__py\n'}
+[6.255186] (safe_teleop_core) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_py.dir/rosidl_generator_py/safe_teleop_core/msg/_collision_warning_s.c.o\n'}
+[6.255348] (safe_teleop_core) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_py.dir/rosidl_generator_py/safe_teleop_core/msg/_object_status_s.c.o\n'}
+[6.256019] (safe_teleop_core) StdoutLine: {'line': b'[ 89%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_py.dir/rosidl_generator_py/safe_teleop_core/msg/_safety_zone_s.c.o\n'}
+[6.256110] (safe_teleop_core) StdoutLine: {'line': b'[ 89%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_py.dir/rosidl_generator_py/safe_teleop_core/msg/_safety_status_s.c.o\n'}
+[6.256201] (safe_teleop_core) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_py.dir/rosidl_generator_py/safe_teleop_core/srv/_update_safety_map_s.c.o\n'}
+[6.256276] (safe_teleop_core) StdoutLine: {'line': b'[ 91%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_py.dir/rosidl_generator_py/safe_teleop_core/msg/_dynamic_object_s.c.o\n'}
+[6.256356] (safe_teleop_core) StdoutLine: {'line': b'[ 92%] Building C object CMakeFiles/safe_teleop_core__rosidl_generator_py.dir/rosidl_generator_py/safe_teleop_core/srv/_activate_object_s.c.o\n'}
+[6.306590] (-) TimerEvent: {}
+[6.406743] (-) TimerEvent: {}
+[6.423403] (safe_teleop_core) StdoutLine: {'line': b'[ 93%] Linking C shared library libsafe_teleop_core__rosidl_generator_py.so\n'}
+[6.461128] (safe_teleop_core) StdoutLine: {'line': b'[ 93%] Built target safe_teleop_core__rosidl_generator_py\n'}
+[6.475745] (safe_teleop_core) StdoutLine: {'line': b'[ 95%] Building C object CMakeFiles/safe_teleop_core_s__rosidl_typesupport_c.dir/rosidl_generator_py/safe_teleop_core/_safe_teleop_core_s.ep.rosidl_typesupport_c.c.o\n'}
+[6.475884] (safe_teleop_core) StdoutLine: {'line': b'[ 95%] Building C object CMakeFiles/safe_teleop_core_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/safe_teleop_core/_safe_teleop_core_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[6.478766] (safe_teleop_core) StdoutLine: {'line': b'[ 96%] Building C object CMakeFiles/safe_teleop_core_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/safe_teleop_core/_safe_teleop_core_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[6.506831] (-) TimerEvent: {}
+[6.606969] (-) TimerEvent: {}
+[6.628689] (safe_teleop_core) StdoutLine: {'line': b'[ 97%] Linking C shared module rosidl_generator_py/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_c.so\n'}
+[6.629092] (safe_teleop_core) StdoutLine: {'line': b'[ 98%] Linking C shared module rosidl_generator_py/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_introspection_c.so\n'}
+[6.634743] (safe_teleop_core) StdoutLine: {'line': b'[100%] Linking C shared module rosidl_generator_py/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_fastrtps_c.so\n'}
+[6.653641] (safe_teleop_core) StdoutLine: {'line': b'[100%] Built target safe_teleop_core_s__rosidl_typesupport_introspection_c\n'}
+[6.654628] (safe_teleop_core) StdoutLine: {'line': b'[100%] Built target safe_teleop_core_s__rosidl_typesupport_c\n'}
+[6.660562] (safe_teleop_core) StdoutLine: {'line': b'[100%] Built target safe_teleop_core_s__rosidl_typesupport_fastrtps_c\n'}
+[6.671111] (safe_teleop_core) CommandEnded: {'returncode': 0}
+[6.671605] (safe_teleop_core) JobProgress: {'identifier': 'safe_teleop_core', 'progress': 'install'}
+[6.677938] (safe_teleop_core) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspaces/safe_teleop_slave_ws/build/safe_teleop_core'], 'cwd': '/workspaces/safe_teleop_slave_ws/build/safe_teleop_core', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'USER': 'ys', 'CLAUDE_CODE_ENTRYPOINT': 'claude-vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'GIT_EDITOR': 'true', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'HOSTNAME': 'ys-MS-7D75', 'CLAUDE_AGENT_SDK_VERSION': '0.2.38', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'BROWSER': '/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/helpers/browser.sh', 'HOME': '/root', 'HOST_USER_GID': '1000', 'VSCODE_RECONNECTION_GRACE_TIME': '10800000', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-be995e01-a315-4ccc-9026-4f0a8a9200ec.sock', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-898505da-fc0a-47ff-bb1a-631fc5d820d2.sock', 'FORCE_COLOR': 'true', 'VSCODE_HANDLES_SIGPIPE': 'true', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'USERNAME': 'admin', 'TERM': 'xterm-256color', 'OTEL_EXPORTER_OTLP_METRICS_TEMPORALITY_PREFERENCE': 'delta', 'ISAAC_ROS_WS': '/workspaces/isaac_ros-dev', 'MCP_CONNECTION_NONBLOCKING': 'true', 'PATH': '/usr/bin:/root/.vscode-server/bin/c9d77990917f3102ada88be140d28b038d1dd7c7/bin/remote-cli:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/src/tensorrt/bin:/opt/ros/jazzy/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/src/tensorrt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'HOST_USER_UID': '1000', 'COREPACK_ENABLE_AUTO_PIN': '0', 'REMOTE_CONTAINERS_SOCKETS': '["/tmp/vscode-ssh-auth-898505da-fc0a-47ff-bb1a-631fc5d820d2.sock","/root/.gnupg/S.gpg-agent"]', 'DISPLAY': ':1', 'NoDefaultCurrentDirectoryInExePath': '1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/vscode-ssh-auth-898505da-fc0a-47ff-bb1a-631fc5d820d2.sock', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ELECTRON_RUN_AS_NODE': '1', 'CLAUDE_CODE_ENABLE_SDK_FILE_CHECKPOINTING': 'true', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CLAUDECODE': '1', 'VIRTUAL_ENV': '/usr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspaces/safe_teleop_slave_ws/build/safe_teleop_core', 'ISAAC_ROS_PLATFORM': 'amd64', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy'}), 'shell': False}
+[6.683812] (safe_teleop_core) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[6.683990] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/ament_index/resource_index/rosidl_interfaces/safe_teleop_core\n'}
+[6.684236] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/SafetyZone.json\n'}
+[6.684396] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/ObjectStatus.json\n'}
+[6.684531] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/CollisionWarning.json\n'}
+[6.684651] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/DynamicObject.json\n'}
+[6.684780] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/SafetyStatus.json\n'}
+[6.684939] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/srv/ActivateObject.json\n'}
+[6.685075] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/srv/UpdateSafetyMap.json\n'}
+[6.685198] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core\n'}
+[6.685307] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg\n'}
+[6.685376] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/dynamic_object.h\n'}
+[6.685493] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/safety_status.h\n'}
+[6.685600] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail\n'}
+[6.685694] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__description.c\n'}
+[6.685820] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__struct.h\n'}
+[6.685935] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__functions.h\n'}
+[6.686048] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__type_support.h\n'}
+[6.686160] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__functions.h\n'}
+[6.686275] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__functions.h\n'}
+[6.686398] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__functions.c\n'}
+[6.686519] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__description.c\n'}
+[6.686638] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__functions.h\n'}
+[6.686753] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__type_support.c\n'}
+[6.686865] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__struct.h\n'}
+[6.686977] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__functions.c\n'}
+[6.687112] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__description.c\n'}
+[6.687218] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__description.c\n'}
+[6.687340] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__description.c\n'}
+[6.687463] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__type_support.c\n'}
+[6.687574] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__type_support.h\n'}
+[6.687710] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__type_support.c\n'}
+[6.687812] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__struct.h\n'}
+[6.687922] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__functions.c\n'}
+[6.688039] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__functions.c\n'}
+[6.688158] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__functions.c\n'}
+[6.688276] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__type_support.h\n'}
+[6.688562] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__type_support.h\n'}
+[6.688867] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__type_support.c\n'}
+[6.688951] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__type_support.c\n'}
+[6.689042] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__functions.h\n'}
+[6.689079] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__type_support.h\n'}
+[6.689144] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__struct.h\n'}
+[6.689205] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__struct.h\n'}
+[6.689287] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/object_status.h\n'}
+[6.689398] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/collision_warning.h\n'}
+[6.689504] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.689611] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/safety_zone.h\n'}
+[6.689718] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv\n'}
+[6.689786] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/activate_object.h\n'}
+[6.689896] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/update_safety_map.h\n'}
+[6.689997] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail\n'}
+[6.690066] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__type_support.h\n'}
+[6.690205] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__struct.h\n'}
+[6.690290] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__functions.c\n'}
+[6.690471] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__struct.h\n'}
+[6.690562] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__description.c\n'}
+[6.690788] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__functions.h\n'}
+[6.690949] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__functions.c\n'}
+[6.691101] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__functions.h\n'}
+[6.691233] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__type_support.c\n'}
+[6.691356] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__type_support.h\n'}
+[6.691474] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__description.c\n'}
+[6.691607] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__type_support.c\n'}
+[6.691814] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/environment/library_path.sh\n'}
+[6.691947] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/environment/library_path.dsv\n'}
+[6.692117] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_generator_c.so\n'}
+[6.692585] (safe_teleop_core) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_generator_c.so" to ""\n'}
+[6.692645] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core\n'}
+[6.692699] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg\n'}
+[6.692742] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail\n'}
+[6.692789] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__rosidl_typesupport_fastrtps_c.h\n'}
+[6.692866] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__rosidl_typesupport_fastrtps_c.h\n'}
+[6.692981] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__rosidl_typesupport_fastrtps_c.h\n'}
+[6.693096] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__rosidl_typesupport_fastrtps_c.h\n'}
+[6.693211] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__rosidl_typesupport_fastrtps_c.h\n'}
+[6.693326] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.693439] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv\n'}
+[6.693493] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail\n'}
+[6.693541] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__rosidl_typesupport_fastrtps_c.h\n'}
+[6.693641] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__rosidl_typesupport_fastrtps_c.h\n'}
+[6.693788] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_fastrtps_c.so\n'}
+[6.694207] (safe_teleop_core) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.694261] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core\n'}
+[6.694322] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg\n'}
+[6.694380] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail\n'}
+[6.694411] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__rosidl_typesupport_introspection_c.h\n'}
+[6.694483] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__rosidl_typesupport_introspection_c.h\n'}
+[6.694599] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__type_support.c\n'}
+[6.694757] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__rosidl_typesupport_introspection_c.h\n'}
+[6.694873] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__rosidl_typesupport_introspection_c.h\n'}
+[6.694984] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__type_support.c\n'}
+[6.695124] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__type_support.c\n'}
+[6.695259] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__type_support.c\n'}
+[6.695426] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__type_support.c\n'}
+[6.695562] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__rosidl_typesupport_introspection_c.h\n'}
+[6.695672] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.695776] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv\n'}
+[6.695838] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail\n'}
+[6.695892] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__type_support.c\n'}
+[6.696005] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__rosidl_typesupport_introspection_c.h\n'}
+[6.696125] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__rosidl_typesupport_introspection_c.h\n'}
+[6.696235] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__type_support.c\n'}
+[6.696428] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_introspection_c.so\n'}
+[6.696931] (safe_teleop_core) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.697018] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_c.so\n'}
+[6.697309] (safe_teleop_core) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_c.so" to ""\n'}
+[6.697394] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core\n'}
+[6.697502] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg\n'}
+[6.697535] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/safety_status.hpp\n'}
+[6.697589] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[6.697703] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/object_status.hpp\n'}
+[6.697809] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail\n'}
+[6.697864] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__type_support.hpp\n'}
+[6.697976] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__struct.hpp\n'}
+[6.698213] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__builder.hpp\n'}
+[6.698369] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__struct.hpp\n'}
+[6.698644] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__builder.hpp\n'}
+[6.698767] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__traits.hpp\n'}
+[6.698890] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__builder.hpp\n'}
+[6.699013] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__type_support.hpp\n'}
+[6.699135] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__struct.hpp\n'}
+[6.699280] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__type_support.hpp\n'}
+[6.699426] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__traits.hpp\n'}
+[6.699529] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__struct.hpp\n'}
+[6.699650] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__builder.hpp\n'}
+[6.699828] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__builder.hpp\n'}
+[6.699896] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__traits.hpp\n'}
+[6.700020] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__struct.hpp\n'}
+[6.700146] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__traits.hpp\n'}
+[6.700269] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__type_support.hpp\n'}
+[6.700395] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__type_support.hpp\n'}
+[6.700523] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__traits.hpp\n'}
+[6.700643] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/collision_warning.hpp\n'}
+[6.700754] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/safety_zone.hpp\n'}
+[6.700863] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/dynamic_object.hpp\n'}
+[6.700969] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv\n'}
+[6.701034] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail\n'}
+[6.701099] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__struct.hpp\n'}
+[6.701169] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__builder.hpp\n'}
+[6.701288] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__type_support.hpp\n'}
+[6.701413] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__traits.hpp\n'}
+[6.701533] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__builder.hpp\n'}
+[6.701649] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__traits.hpp\n'}
+[6.701772] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__struct.hpp\n'}
+[6.701892] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__type_support.hpp\n'}
+[6.702012] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/activate_object.hpp\n'}
+[6.702119] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/update_safety_map.hpp\n'}
+[6.702271] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core\n'}
+[6.702346] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg\n'}
+[6.702423] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail\n'}
+[6.702467] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.702527] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.702634] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dds_fastrtps\n'}
+[6.702722] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.702848] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.702982] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.703102] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.703206] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv\n'}
+[6.703293] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail\n'}
+[6.703340] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/dds_fastrtps\n'}
+[6.703410] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.703495] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.703661] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.704129] (safe_teleop_core) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.704202] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core\n'}
+[6.704254] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg\n'}
+[6.704315] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail\n'}
+[6.704441] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__type_support.cpp\n'}
+[6.704482] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.704558] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__type_support.cpp\n'}
+[6.704666] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_status__type_support.cpp\n'}
+[6.704799] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__type_support.cpp\n'}
+[6.704927] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/safety_zone__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.705052] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/dynamic_object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.705178] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/object_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.705391] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__type_support.cpp\n'}
+[6.705566] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/msg/detail/collision_warning__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.705684] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv\n'}
+[6.705781] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail\n'}
+[6.705813] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.705893] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.706010] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/activate_object__type_support.cpp\n'}
+[6.706148] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/safe_teleop_core/srv/detail/update_safety_map__type_support.cpp\n'}
+[6.706351] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_introspection_cpp.so\n'}
+[6.707049] (safe_teleop_core) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.707119] (-) TimerEvent: {}
+[6.707129] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_cpp.so\n'}
+[6.707476] (safe_teleop_core) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_typesupport_cpp.so" to ""\n'}
+[6.707589] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/environment/pythonpath.sh\n'}
+[6.707656] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/environment/pythonpath.dsv\n'}
+[6.707766] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core-0.1.0-py3.12.egg-info\n'}
+[6.707885] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core-0.1.0-py3.12.egg-info/dependency_links.txt\n'}
+[6.708041] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core-0.1.0-py3.12.egg-info/SOURCES.txt\n'}
+[6.708138] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core-0.1.0-py3.12.egg-info/top_level.txt\n'}
+[6.708242] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core-0.1.0-py3.12.egg-info/PKG-INFO\n'}
+[6.708404] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core\n'}
+[6.708474] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/_safe_teleop_core_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.708638] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_fastrtps_c.so\n'}
+[6.708789] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_c.so\n'}
+[6.708939] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/_safe_teleop_core_s.ep.rosidl_typesupport_c.c\n'}
+[6.709094] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg\n'}
+[6.709189] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_safety_zone_s.c\n'}
+[6.709313] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_dynamic_object.py\n'}
+[6.709444] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_dynamic_object_s.c\n'}
+[6.709565] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_safety_status.py\n'}
+[6.709700] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_safety_status_s.c\n'}
+[6.709831] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_collision_warning_s.c\n'}
+[6.710003] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/__init__.py\n'}
+[6.710173] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_object_status.py\n'}
+[6.710337] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_safety_zone.py\n'}
+[6.710473] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_collision_warning.py\n'}
+[6.710601] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_object_status_s.c\n'}
+[6.710723] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/__init__.py\n'}
+[6.710820] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/srv\n'}
+[6.710885] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/srv/_activate_object.py\n'}
+[6.711014] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/srv/_update_safety_map.py\n'}
+[6.711141] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/srv/_activate_object_s.c\n'}
+[6.711319] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/srv/__init__.py\n'}
+[6.711476] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/srv/_update_safety_map_s.c\n'}
+[6.711620] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_introspection_c.so\n'}
+[6.711792] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/_safe_teleop_core_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.746139] (safe_teleop_core) StdoutLine: {'line': b"Listing '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core'...\n"}
+[6.746289] (safe_teleop_core) StdoutLine: {'line': b"Compiling '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/__init__.py'...\n"}
+[6.746357] (safe_teleop_core) StdoutLine: {'line': b"Listing '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg'...\n"}
+[6.746415] (safe_teleop_core) StdoutLine: {'line': b"Compiling '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/__init__.py'...\n"}
+[6.746452] (safe_teleop_core) StdoutLine: {'line': b"Compiling '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_collision_warning.py'...\n"}
+[6.746485] (safe_teleop_core) StdoutLine: {'line': b"Compiling '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_dynamic_object.py'...\n"}
+[6.746522] (safe_teleop_core) StdoutLine: {'line': b"Compiling '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_object_status.py'...\n"}
+[6.746552] (safe_teleop_core) StdoutLine: {'line': b"Compiling '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_safety_status.py'...\n"}
+[6.746584] (safe_teleop_core) StdoutLine: {'line': b"Compiling '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/msg/_safety_zone.py'...\n"}
+[6.746614] (safe_teleop_core) StdoutLine: {'line': b"Listing '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/srv'...\n"}
+[6.746644] (safe_teleop_core) StdoutLine: {'line': b"Compiling '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/srv/__init__.py'...\n"}
+[6.746674] (safe_teleop_core) StdoutLine: {'line': b"Compiling '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/srv/_activate_object.py'...\n"}
+[6.746704] (safe_teleop_core) StdoutLine: {'line': b"Compiling '/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/srv/_update_safety_map.py'...\n"}
+[6.750531] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_fastrtps_c.so\n'}
+[6.750843] (safe_teleop_core) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.751022] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_introspection_c.so\n'}
+[6.751348] (safe_teleop_core) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.751529] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_c.so\n'}
+[6.751835] (safe_teleop_core) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/python3.12/site-packages/safe_teleop_core/safe_teleop_core_s__rosidl_typesupport_c.so" to ""\n'}
+[6.751899] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_generator_py.so\n'}
+[6.752258] (safe_teleop_core) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/safe_teleop_slave_ws/install/safe_teleop_core/lib/libsafe_teleop_core__rosidl_generator_py.so" to ""\n'}
+[6.752345] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/SafetyZone.idl\n'}
+[6.752442] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/ObjectStatus.idl\n'}
+[6.752571] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/CollisionWarning.idl\n'}
+[6.752696] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/DynamicObject.idl\n'}
+[6.752820] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/SafetyStatus.idl\n'}
+[6.752946] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/srv/ActivateObject.idl\n'}
+[6.753074] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/srv/UpdateSafetyMap.idl\n'}
+[6.753225] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/SafetyZone.msg\n'}
+[6.753371] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/ObjectStatus.msg\n'}
+[6.753502] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/CollisionWarning.msg\n'}
+[6.753631] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/DynamicObject.msg\n'}
+[6.753756] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/msg/SafetyStatus.msg\n'}
+[6.753889] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/srv/ActivateObject.srv\n'}
+[6.754023] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/srv/UpdateSafetyMap.srv\n'}
+[6.754151] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include\n'}
+[6.754202] (safe_teleop_core) StdoutLine: {'line': b'-- Up-to-date: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core\n'}
+[6.754256] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/include/safe_teleop_core/interfaces.hpp\n'}
+[6.754409] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/ament_index/resource_index/package_run_dependencies/safe_teleop_core\n'}
+[6.754589] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/ament_index/resource_index/parent_prefix_path/safe_teleop_core\n'}
+[6.754737] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/environment/ament_prefix_path.sh\n'}
+[6.754924] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/environment/ament_prefix_path.dsv\n'}
+[6.755093] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/environment/path.sh\n'}
+[6.755267] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/environment/path.dsv\n'}
+[6.755457] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/local_setup.bash\n'}
+[6.755649] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/local_setup.sh\n'}
+[6.755879] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/local_setup.zsh\n'}
+[6.756022] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/local_setup.dsv\n'}
+[6.756288] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/package.dsv\n'}
+[6.756656] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/ament_index/resource_index/packages/safe_teleop_core\n'}
+[6.756874] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/export_safe_teleop_core__rosidl_generator_cExport.cmake\n'}
+[6.757036] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/export_safe_teleop_core__rosidl_generator_cExport-release.cmake\n'}
+[6.757211] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/export_safe_teleop_core__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.757349] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/export_safe_teleop_core__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[6.757540] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/safe_teleop_core__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.757701] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/safe_teleop_core__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[6.757867] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/safe_teleop_core__rosidl_typesupport_cExport.cmake\n'}
+[6.758020] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/safe_teleop_core__rosidl_typesupport_cExport-release.cmake\n'}
+[6.758164] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/export_safe_teleop_core__rosidl_generator_cppExport.cmake\n'}
+[6.758322] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/export_safe_teleop_core__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.758480] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/export_safe_teleop_core__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[6.758637] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/safe_teleop_core__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.758765] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/safe_teleop_core__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[6.758924] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/safe_teleop_core__rosidl_typesupport_cppExport.cmake\n'}
+[6.759069] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/safe_teleop_core__rosidl_typesupport_cppExport-release.cmake\n'}
+[6.759221] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/export_safe_teleop_core__rosidl_generator_pyExport.cmake\n'}
+[6.759363] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/export_safe_teleop_core__rosidl_generator_pyExport-release.cmake\n'}
+[6.759513] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/rosidl_cmake-extras.cmake\n'}
+[6.759653] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.759797] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.759928] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.760078] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.760224] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.760376] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.760508] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/safe_teleop_coreConfig.cmake\n'}
+[6.760625] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/cmake/safe_teleop_coreConfig-version.cmake\n'}
+[6.760769] (safe_teleop_core) StdoutLine: {'line': b'-- Installing: /workspaces/safe_teleop_slave_ws/install/safe_teleop_core/share/safe_teleop_core/package.xml\n'}
+[6.762487] (safe_teleop_core) CommandEnded: {'returncode': 0}
+[6.775756] (safe_teleop_core) JobEnded: {'identifier': 'safe_teleop_core', 'rc': 0}
+[6.776112] (-) EventReactorShutdown: {}

@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "safe_teleop_core/msg/detail/collision_warning__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 #include "safe_teleop_core/msg/detail/collision_warning__type_support.h"
 #include "safe_teleop_core/msg/detail/collision_warning__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

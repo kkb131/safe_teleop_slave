@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "")
+    set(CMAKE_INSTALL_CONFIG_NAME "Release")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -312,7 +312,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/safe_teleop_core_s__rosidl_typesupport_fastrtps_c.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/safe_teleop_core_s__rosidl_typesupport_fastrtps_c.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -336,7 +336,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/safe_teleop_core_s__rosidl_typesupport_introspection_c.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/safe_teleop_core_s__rosidl_typesupport_introspection_c.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -360,7 +360,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/safe_teleop_core_s__rosidl_typesupport_c.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/safe_teleop_core_s__rosidl_typesupport_c.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -512,8 +512,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     unset(_cmake_export_file_changed)
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/export_safe_teleop_core__rosidl_generator_cExport.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/export_safe_teleop_core__rosidl_generator_cExport-noconfig.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/export_safe_teleop_core__rosidl_generator_cExport-release.cmake")
   endif()
 endif()
 
@@ -535,8 +535,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     unset(_cmake_export_file_changed)
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/export_safe_teleop_core__rosidl_typesupport_fastrtps_cExport.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/export_safe_teleop_core__rosidl_typesupport_fastrtps_cExport-noconfig.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/export_safe_teleop_core__rosidl_typesupport_fastrtps_cExport-release.cmake")
   endif()
 endif()
 
@@ -558,8 +558,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     unset(_cmake_export_file_changed)
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/safe_teleop_core__rosidl_typesupport_introspection_cExport.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/safe_teleop_core__rosidl_typesupport_introspection_cExport-noconfig.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/safe_teleop_core__rosidl_typesupport_introspection_cExport-release.cmake")
   endif()
 endif()
 
@@ -581,8 +581,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     unset(_cmake_export_file_changed)
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/safe_teleop_core__rosidl_typesupport_cExport.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/safe_teleop_core__rosidl_typesupport_cExport-noconfig.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/safe_teleop_core__rosidl_typesupport_cExport-release.cmake")
   endif()
 endif()
 
@@ -624,8 +624,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     unset(_cmake_export_file_changed)
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/export_safe_teleop_core__rosidl_typesupport_fastrtps_cppExport.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/export_safe_teleop_core__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/export_safe_teleop_core__rosidl_typesupport_fastrtps_cppExport-release.cmake")
   endif()
 endif()
 
@@ -647,8 +647,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     unset(_cmake_export_file_changed)
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/safe_teleop_core__rosidl_typesupport_introspection_cppExport.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/safe_teleop_core__rosidl_typesupport_introspection_cppExport-noconfig.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/safe_teleop_core__rosidl_typesupport_introspection_cppExport-release.cmake")
   endif()
 endif()
 
@@ -670,8 +670,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     unset(_cmake_export_file_changed)
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/safe_teleop_core__rosidl_typesupport_cppExport.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/safe_teleop_core__rosidl_typesupport_cppExport-noconfig.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/safe_teleop_core__rosidl_typesupport_cppExport-release.cmake")
   endif()
 endif()
 
@@ -693,8 +693,8 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     unset(_cmake_export_file_changed)
   endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/export_safe_teleop_core__rosidl_generator_pyExport.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/export_safe_teleop_core__rosidl_generator_pyExport-noconfig.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/safe_teleop_core/cmake" TYPE FILE FILES "/workspaces/safe_teleop_slave_ws/build/safe_teleop_core/CMakeFiles/Export/195c88494a49f645ffe620e120d04452/export_safe_teleop_core__rosidl_generator_pyExport-release.cmake")
   endif()
 endif()
 
